@@ -1,0 +1,40 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:c="http://www.springframework.org/schema/c"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       https://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/util
+       https://www.springframework.org/schema/util/spring-util.xsd
+       http://www.springframework.org/schema/context
+       https://www.springframework.org/schema/context/spring-context.xsd
+       http://www.springframework.org/schema/aop
+       https://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <!--通知类放入IOC容器-->
+    <bean id="peopleAdvice" class="com.bjsxt.aspectj.PeopleAdvice"></bean>
+    <!--切点对象放入容器-->
+    <bean id="peopleService" class="com.bjsxt.service.PeopleService"></bean>
+
+    <!--配置aop切面-->
+    <aop:config>
+        <aop:aspect ref="peopleAdvice">
+            <!--切点配置带有参数的方法需要注意点：1.设置参数类型2.定义参数名称（要在execution()后面写）-->
+            <aop:pointcut id="pointcut" expression="execution(* com.bjsxt.service.PeopleService.insert(String,int)) and args(name,age)"/>
+            <!--arg-names必须和通知方法参数完全对应。-->
+            <aop:before method="before" arg-names="name,age" pointcut-ref="pointcut"></aop:before>
+            <!--returning告诉Spring哪个参数是接收切入点方法返回值的-->
+            <aop:after-returning method="afterReturning" arg-names="name,age,returnValue" pointcut-ref="pointcut" returning="returnValue"></aop:after-returning>
+            <!--after最终通知无法接收切点方法返回值-->
+            <aop:after method="after" arg-names="name,age" pointcut-ref="pointcut"></aop:after>
+            <!--pjp是由ioc容器自动注入的-->
+            <aop:around method="around" pointcut-ref="pointcut" arg-names="pjp,name,age"></aop:around>
+            <!--throwing 告诉spring哪个参数负责接收切入点抛出的异常的-->
+            <aop:after-throwing method="afterThrowing" arg-names="name,age,e" pointcut-ref="pointcut" throwing="e"></aop:after-throwing>
+        </aop:aspect>
+    </aop:config>
+
+</beans>

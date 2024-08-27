@@ -1,0 +1,12 @@
+spring:
+  application:
+    # 项目名称
+    name: payment-service
+  cloud:
+    nacos:
+      discovery:
+        # Nacos注册中心地址
+        server-addr: 192.168.66.128:8848
+
+server:
+  port: 8003

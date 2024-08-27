@@ -1,0 +1,19 @@
+#bg-penuh2 {
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    box-shadow: rgba(0, 0, 0, 0.498039) 0px 2000px inset;
+    /*background: url("https://i0.hippopx.com/photos/313/526/477/the-plane-2-world-war-i-flight-sky-preview.jpg") no-repeat center center fixed;*/
+    /*background: url("https://i0.hippopx.com/photos/24/563/723/plane-aircraft-jet-sky-preview.jpg") no-repeat center center fixed;*/
+    /*background: url("https://i0.hippopx.com/photos/1007/994/328/plane-flight-plane-wing-travel-preview.jpg") no-repeat center center fixed;*/
+    /*background: url("https://i0.hippopx.com/photos/380/29/252/aircraft-airplane-aviation-flight-preview.jpg") no-repeat center center fixed;*/
+    /*background: url("https://i0.hippopx.com/photos/616/775/578/military-jet-aircraft-take-off-air-force-preview.jpg") no-repeat center center fixed;*/
+    /*  background: url("https://i0.hippopx.com/photos/392/243/701/men-single-landscape-sky-preview.jpg") no-repeat center center fixed;*/
+    background: url("https://photo.colorhub.me/OEprvaSikjA/rs:auto:0:500:0/g:ce/fn:colorhub/bG9jYWw6Ly8vMGMvZmMvM2Y3NzI1MDc1OGMwYTlhNDk3ZTY0YTM1YmI0N2VmY2ZjMjYwMGNmYy5qcGc.webp") no-repeat center center fixed;
+    background-size: cover;
+}
+
+/*https://vimg.zjsnews.cn/zjsportal/news/corver/4f581e852cb9407daef2d5dac0b88273*/
+/*https://vimg.zjsnews.cn/zjsportal/news/corver/4f581e852cb9407daef2d5dac0b88273*/

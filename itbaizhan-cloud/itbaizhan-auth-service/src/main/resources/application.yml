@@ -1,0 +1,12 @@
+spring:
+  application:
+    # 应用名字
+    name: auth-service
+  cloud:
+    nacos:
+      discovery:
+        # 注册中心地址
+        server-addr: 192.168.66.128:8848
+server:
+  # 项目端口
+  port: 6789

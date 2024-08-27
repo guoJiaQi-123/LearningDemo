@@ -1,0 +1,32 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:c="http://www.springframework.org/schema/c"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       https://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/util
+       https://www.springframework.org/schema/util/spring-util.xsd">
+
+
+    <!--静态变量定义为一个Bean时，必须借助FieldRetrievingFactoryBean才能定义。-->
+    <bean name="constant" class="org.springframework.beans.factory.config.FieldRetrievingFactoryBean">
+        <property name="staticField" value="com.bjsxt.pojo.Constant.NAME"></property>
+    </bean>
+
+    <!--使用util命名空间定义常量类型bean-->
+    <util:constant static-field="com.bjsxt.pojo.Constant.NAME" id="myName"/>
+    <util:constant static-field="com.bjsxt.pojo.Constant.ID" id="myId"/>
+
+    <bean name="peo" class="com.bjsxt.pojo.Person" c:id-ref="myId" c:name-ref="myName" p:list-ref="person_List"/>
+
+    <!-- list-class:设置使用List接口的哪个实现类 默认为：ArrayList -->
+    <!-- value-type:设置泛型类型 -->
+    <util:list id="person_List" list-class="java.util.LinkedList" value-type="java.lang.String">
+        <value>郭家旗</value>
+        <value>学java</value>
+    </util:list>
+
+
+
+</beans>

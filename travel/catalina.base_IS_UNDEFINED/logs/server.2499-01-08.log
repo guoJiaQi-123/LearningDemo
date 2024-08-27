@@ -1,0 +1,866 @@
+11:10:49.667 [main] INFO  com.itbaizhan.travel.TravelApplication - Starting TravelApplication using Java 11.0.21 on LAPTOP-MVCHB40V with PID 100 (C:\Users\HX\IdeaProjects\travel\target\classes started by HX in C:\Users\HX\IdeaProjects\travel)
+11:10:49.669 [main] INFO  com.itbaizhan.travel.TravelApplication - No active profile set, falling back to 1 default profile: "default"
+11:10:50.855 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+11:10:50.863 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+11:10:50.863 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+11:10:50.863 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+11:10:50.956 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+11:10:50.956 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1240 ms
+11:10:53.866 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@32d0d7eb, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@cae2a97, org.springframework.security.web.context.SecurityContextPersistenceFilter@370225c7, org.springframework.security.web.header.HeaderWriterFilter@31006a75, org.springframework.web.filter.CorsFilter@7d12429, org.springframework.security.web.authentication.logout.LogoutFilter@105dc04d, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@504b8705, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@305aaedf, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@69d2e517, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@14656be5, org.springframework.security.web.session.SessionManagementFilter@e97f115, org.springframework.security.web.access.ExceptionTranslationFilter@ff1f465, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2830315f]
+11:10:53.911 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+11:10:53.927 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path ''
+11:10:53.935 [main] INFO  com.itbaizhan.travel.TravelApplication - Started TravelApplication in 4.606 seconds (JVM running for 6.235)
+11:10:54.104 [http-nio-80-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:10:54.105 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+11:10:54.105 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+11:10:54.142 [http-nio-80-exec-1] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/backstage/admin_login, visitTime=Mon Jan 08 11:10:54 CST 2024, executionTime=3, username=null, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:10:54.341 [http-nio-80-exec-5] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 11:10:54 CST 2024, executionTime=0, username=null, ip=127.0.0.1, exceptionMessage=null)
+11:10:58.657 [http-nio-80-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+11:10:58.927 [http-nio-80-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+11:10:59.134 [http-nio-80-exec-3] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/backstage/index, visitTime=Mon Jan 08 11:10:59 CST 2024, executionTime=0, username=小黑子, ip=127.0.0.1, exceptionMessage=null)
+11:11:00.118 [http-nio-80-exec-3] WARN  org.apache.catalina.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [852] milliseconds.
+11:11:00.267 [http-nio-80-exec-4] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 11:11:00 CST 2024, executionTime=0, username=小黑子, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:11:02.107 [http-nio-80-exec-2] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 11:11:02 CST 2024, executionTime=0, username=小黑子, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:11:38.157 [http-nio-80-exec-9] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 11:11:38 CST 2024, executionTime=0, username=小黑子, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:11:38.469 [http-nio-80-exec-9] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 11:11:38 CST 2024, executionTime=0, username=小黑子, ip=127.0.0.1, exceptionMessage=null)
+11:11:42.098 [http-nio-80-exec-8] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 11:11:42 CST 2024, executionTime=0, username=小黑子, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:15:29.816 [http-nio-80-exec-3] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 11:15:29 CST 2024, executionTime=0, username=小黑子, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:15:30.819 [http-nio-80-exec-3] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 11:15:30 CST 2024, executionTime=0, username=小黑子, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:15:34.156 [http-nio-80-exec-9] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 11:15:34 CST 2024, executionTime=0, username=小黑子, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:15:59.692 [http-nio-80-exec-9] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 11:15:59 CST 2024, executionTime=0, username=小黑子, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:16:04.053 [http-nio-80-exec-6] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 11:16:04 CST 2024, executionTime=1, username=小黑子, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:21:55.397 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+11:21:55.407 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+11:22:02.916 [main] INFO  com.itbaizhan.travel.TravelApplication - Starting TravelApplication using Java 11.0.21 on LAPTOP-MVCHB40V with PID 10808 (C:\Users\HX\IdeaProjects\travel\target\classes started by HX in C:\Users\HX\IdeaProjects\travel)
+11:22:02.917 [main] INFO  com.itbaizhan.travel.TravelApplication - No active profile set, falling back to 1 default profile: "default"
+11:22:03.888 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+11:22:03.895 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+11:22:03.895 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+11:22:03.896 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+11:22:03.966 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+11:22:03.966 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1012 ms
+11:22:06.508 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@32d0d7eb, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@cae2a97, org.springframework.security.web.context.SecurityContextPersistenceFilter@370225c7, org.springframework.security.web.header.HeaderWriterFilter@31006a75, org.springframework.web.filter.CorsFilter@7d12429, org.springframework.security.web.authentication.logout.LogoutFilter@105dc04d, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@504b8705, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@305aaedf, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@69d2e517, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@14656be5, org.springframework.security.web.session.SessionManagementFilter@e97f115, org.springframework.security.web.access.ExceptionTranslationFilter@ff1f465, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2830315f]
+11:22:06.545 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+11:22:06.558 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path ''
+11:22:06.566 [main] INFO  com.itbaizhan.travel.TravelApplication - Started TravelApplication in 3.949 seconds (JVM running for 5.447)
+11:22:09.702 [http-nio-80-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:22:09.702 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+11:22:09.703 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+11:22:10.575 [http-nio-80-exec-1] WARN  org.apache.catalina.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [844] milliseconds.
+11:22:10.599 [http-nio-80-exec-3] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/backstage/admin_login, visitTime=Mon Jan 08 11:22:10 CST 2024, executionTime=2, username=null, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:22:10.745 [http-nio-80-exec-5] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 11:22:10 CST 2024, executionTime=0, username=null, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:22:14.628 [http-nio-80-exec-9] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+11:22:14.830 [http-nio-80-exec-9] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+11:22:15.032 [http-nio-80-exec-9] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/backstage/index, visitTime=Mon Jan 08 11:22:15 CST 2024, executionTime=0, username=小黑子, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:22:15.279 [http-nio-80-exec-10] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 11:22:15 CST 2024, executionTime=0, username=小黑子, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:22:16.075 [http-nio-80-exec-6] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 11:22:16 CST 2024, executionTime=0, username=小黑子, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:22:17.464 [http-nio-80-exec-4] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 11:22:17 CST 2024, executionTime=0, username=小黑子, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:22:18.311 [http-nio-80-exec-2] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 11:22:18 CST 2024, executionTime=0, username=小黑子, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:22:20.395 [http-nio-80-exec-4] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 11:22:20 CST 2024, executionTime=0, username=小黑子, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:22:21.047 [http-nio-80-exec-4] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 11:22:21 CST 2024, executionTime=0, username=小黑子, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:22:24.432 [http-nio-80-exec-6] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 11:22:24 CST 2024, executionTime=0, username=小黑子, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:22:24.981 [http-nio-80-exec-9] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 11:22:24 CST 2024, executionTime=0, username=小黑子, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:22:28.967 [http-nio-80-exec-2] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 11:22:28 CST 2024, executionTime=0, username=小黑子, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:22:30.361 [http-nio-80-exec-3] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 11:22:30 CST 2024, executionTime=0, username=小黑子, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:22:31.855 [http-nio-80-exec-1] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 11:22:31 CST 2024, executionTime=0, username=小黑子, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:22:34.189 [http-nio-80-exec-2] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 11:22:34 CST 2024, executionTime=0, username=小黑子, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:22:35.971 [http-nio-80-exec-6] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 11:22:35 CST 2024, executionTime=0, username=小黑子, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:22:46.664 [http-nio-80-exec-5] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 11:22:46 CST 2024, executionTime=0, username=小黑子, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:22:51.805 [http-nio-80-exec-10] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 11:22:51 CST 2024, executionTime=0, username=小黑子, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:22:55.777 [http-nio-80-exec-3] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 11:22:55 CST 2024, executionTime=0, username=小黑子, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:23:02.445 [http-nio-80-exec-10] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 11:23:02 CST 2024, executionTime=0, username=小黑子, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:23:03.117 [http-nio-80-exec-2] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/backstage/index, visitTime=Mon Jan 08 11:23:03 CST 2024, executionTime=0, username=小黑子, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:23:03.210 [http-nio-80-exec-9] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 11:23:03 CST 2024, executionTime=0, username=小黑子, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:23:04.622 [http-nio-80-exec-2] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 11:23:04 CST 2024, executionTime=0, username=小黑子, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:23:07.711 [http-nio-80-exec-7] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 11:23:07 CST 2024, executionTime=0, username=小黑子, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:23:08.608 [http-nio-80-exec-8] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 11:23:08 CST 2024, executionTime=0, username=小黑子, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:23:11.576 [http-nio-80-exec-7] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 11:23:11 CST 2024, executionTime=0, username=小黑子, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:23:14.097 [http-nio-80-exec-5] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 11:23:14 CST 2024, executionTime=0, username=小黑子, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:23:19.369 [http-nio-80-exec-2] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/frontdesk/index, visitTime=Mon Jan 08 11:23:19 CST 2024, executionTime=0, username=小黑子, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:23:19.524 [http-nio-80-exec-6] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 11:23:19 CST 2024, executionTime=0, username=小黑子, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:23:22.402 [http-nio-80-exec-7] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 11:23:22 CST 2024, executionTime=0, username=小黑子, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:23:25.227 [http-nio-80-exec-7] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 11:23:25 CST 2024, executionTime=0, username=小黑子, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:23:25.924 [http-nio-80-exec-6] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/frontdesk/index, visitTime=Mon Jan 08 11:23:25 CST 2024, executionTime=0, username=小黑子, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:23:26.025 [http-nio-80-exec-8] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 11:23:26 CST 2024, executionTime=0, username=小黑子, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:23:44.829 [http-nio-80-exec-9] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 11:23:44 CST 2024, executionTime=0, username=小黑子, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:23:54.349 [http-nio-80-exec-9] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 11:23:54 CST 2024, executionTime=0, username=小黑子, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:23:54.768 [http-nio-80-exec-7] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 11:23:54 CST 2024, executionTime=0, username=小黑子, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:23:55.226 [http-nio-80-exec-2] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 11:23:55 CST 2024, executionTime=0, username=小黑子, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:23:55.636 [http-nio-80-exec-8] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 11:23:55 CST 2024, executionTime=0, username=小黑子, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:23:56.296 [http-nio-80-exec-4] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 11:23:56 CST 2024, executionTime=0, username=小黑子, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:23:56.696 [http-nio-80-exec-4] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 11:23:56 CST 2024, executionTime=0, username=小黑子, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:23:58.576 [http-nio-80-exec-6] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 11:23:58 CST 2024, executionTime=0, username=小黑子, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:24:00.093 [http-nio-80-exec-10] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 11:24:00 CST 2024, executionTime=0, username=小黑子, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:24:00.607 [http-nio-80-exec-5] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 11:24:00 CST 2024, executionTime=0, username=小黑子, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:24:01.525 [http-nio-80-exec-3] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 11:24:01 CST 2024, executionTime=0, username=小黑子, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:24:02.088 [http-nio-80-exec-9] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 11:24:02 CST 2024, executionTime=0, username=小黑子, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:24:03.176 [http-nio-80-exec-2] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/frontdesk/login, visitTime=Mon Jan 08 11:24:03 CST 2024, executionTime=0, username=小黑子, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:24:03.216 [http-nio-80-exec-3] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/frontdesk/footer.html, visitTime=Mon Jan 08 11:24:03 CST 2024, executionTime=0, username=小黑子, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:24:03.216 [http-nio-80-exec-8] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/frontdesk/header.html, visitTime=Mon Jan 08 11:24:03 CST 2024, executionTime=0, username=小黑子, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:24:03.232 [http-nio-80-exec-1] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 11:24:03 CST 2024, executionTime=0, username=小黑子, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:24:06.343 [http-nio-80-exec-1] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 11:24:06 CST 2024, executionTime=0, username=小黑子, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:24:10.097 [http-nio-80-exec-5] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 11:24:10 CST 2024, executionTime=0, username=小黑子, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:24:10.565 [http-nio-80-exec-3] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 11:24:10 CST 2024, executionTime=0, username=小黑子, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:24:11.117 [http-nio-80-exec-8] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 11:24:11 CST 2024, executionTime=0, username=小黑子, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:24:13.021 [http-nio-80-exec-2] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 11:24:13 CST 2024, executionTime=0, username=小黑子, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:24:13.869 [http-nio-80-exec-2] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 11:24:13 CST 2024, executionTime=0, username=小黑子, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:31:56.109 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+11:31:56.118 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+11:32:00.873 [main] INFO  com.itbaizhan.travel.TravelApplication - Starting TravelApplication using Java 11.0.21 on LAPTOP-MVCHB40V with PID 16144 (C:\Users\HX\IdeaProjects\travel\target\classes started by HX in C:\Users\HX\IdeaProjects\travel)
+11:32:00.875 [main] INFO  com.itbaizhan.travel.TravelApplication - No active profile set, falling back to 1 default profile: "default"
+11:32:01.947 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+11:32:01.954 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+11:32:01.954 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+11:32:01.954 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+11:32:02.024 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+11:32:02.025 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1103 ms
+11:32:04.624 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3212bfd, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1cc9bd9b, org.springframework.security.web.context.SecurityContextPersistenceFilter@7019d619, org.springframework.security.web.header.HeaderWriterFilter@54defd69, org.springframework.web.filter.CorsFilter@2f471037, org.springframework.security.web.authentication.logout.LogoutFilter@4de91056, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2404abe2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6f8ac8d5, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4bbf20d1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1d1cfe4, org.springframework.security.web.session.SessionManagementFilter@377dbc50, org.springframework.security.web.access.ExceptionTranslationFilter@58f7215c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@580c17a0]
+11:32:04.668 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+11:32:04.683 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path ''
+11:32:04.692 [main] INFO  com.itbaizhan.travel.TravelApplication - Started TravelApplication in 4.142 seconds (JVM running for 5.651)
+11:32:08.298 [http-nio-80-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:32:08.298 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+11:32:08.300 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+11:32:08.331 [http-nio-80-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+11:32:08.536 [http-nio-80-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+11:32:09.001 [http-nio-80-exec-7] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 11:32:09 CST 2024, executionTime=1, username=null, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:34:34.003 [http-nio-80-exec-3] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/backstage/admin_login, visitTime=Mon Jan 08 11:34:34 CST 2024, executionTime=2, username=null, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:34:34.066 [http-nio-80-exec-5] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 11:34:34 CST 2024, executionTime=0, username=null, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:34:40.905 [http-nio-80-exec-8] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/backstage/index, visitTime=Mon Jan 08 11:34:40 CST 2024, executionTime=0, username=小黑子, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:34:41.793 [http-nio-80-exec-8] WARN  org.apache.catalina.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [866] milliseconds.
+11:34:41.941 [http-nio-80-exec-1] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 11:34:41 CST 2024, executionTime=0, username=小黑子, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:34:43.752 [http-nio-80-exec-9] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 11:34:43 CST 2024, executionTime=0, username=小黑子, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:36:03.800 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+11:36:03.811 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+11:36:08.513 [main] INFO  com.itbaizhan.travel.TravelApplication - Starting TravelApplication using Java 11.0.21 on LAPTOP-MVCHB40V with PID 17552 (C:\Users\HX\IdeaProjects\travel\target\classes started by HX in C:\Users\HX\IdeaProjects\travel)
+11:36:08.515 [main] INFO  com.itbaizhan.travel.TravelApplication - No active profile set, falling back to 1 default profile: "default"
+11:36:09.494 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+11:36:09.500 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+11:36:09.500 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+11:36:09.500 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+11:36:09.573 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+11:36:09.573 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1021 ms
+11:36:12.292 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@32d0d7eb, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@cae2a97, org.springframework.security.web.context.SecurityContextPersistenceFilter@3cf4dec7, org.springframework.security.web.header.HeaderWriterFilter@31006a75, org.springframework.web.filter.CorsFilter@7d12429, org.springframework.security.web.authentication.logout.LogoutFilter@105dc04d, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@504b8705, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1f9a7684, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@16cf7fd0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@14656be5, org.springframework.security.web.session.SessionManagementFilter@7b4b8199, org.springframework.security.web.access.ExceptionTranslationFilter@ff1f465, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2830315f]
+11:36:12.341 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+11:36:12.355 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path ''
+11:36:12.364 [main] INFO  com.itbaizhan.travel.TravelApplication - Started TravelApplication in 4.154 seconds (JVM running for 5.624)
+11:36:17.484 [http-nio-80-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:36:17.487 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+11:36:17.487 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+11:36:17.521 [http-nio-80-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+11:36:17.732 [http-nio-80-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+11:36:18.200 [http-nio-80-exec-7] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 11:36:18 CST 2024, executionTime=1, username=null, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:41:50.234 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+11:41:50.242 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+11:41:55.004 [main] INFO  com.itbaizhan.travel.TravelApplication - Starting TravelApplication using Java 11.0.21 on LAPTOP-MVCHB40V with PID 3328 (C:\Users\HX\IdeaProjects\travel\target\classes started by HX in C:\Users\HX\IdeaProjects\travel)
+11:41:55.007 [main] INFO  com.itbaizhan.travel.TravelApplication - No active profile set, falling back to 1 default profile: "default"
+11:41:56.089 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+11:41:56.096 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+11:41:56.096 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+11:41:56.096 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+11:41:56.166 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+11:41:56.166 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1115 ms
+11:41:58.764 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2a667f44, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@53ba7997, org.springframework.security.web.context.SecurityContextPersistenceFilter@4ad1a276, org.springframework.security.web.header.HeaderWriterFilter@7019d619, org.springframework.web.filter.CorsFilter@3f6f9cef, org.springframework.security.web.authentication.logout.LogoutFilter@7ff6804a, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@12aa519b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1e29a81a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@305aaedf, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@61dd1c3d, org.springframework.security.web.session.SessionManagementFilter@ff1f465, org.springframework.security.web.access.ExceptionTranslationFilter@54defd69, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@15f861ee]
+11:41:58.803 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+11:41:58.816 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path ''
+11:41:58.824 [main] INFO  com.itbaizhan.travel.TravelApplication - Started TravelApplication in 4.149 seconds (JVM running for 5.726)
+11:42:00.542 [http-nio-80-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:42:00.543 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+11:42:00.543 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+11:42:00.576 [http-nio-80-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+11:42:00.786 [http-nio-80-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+11:42:01.187 [http-nio-80-exec-1] ERROR org.thymeleaf.TemplateEngine - [THYMELEAF][http-nio-80-exec-1] Exception processing template "frontdesk/route_list": Could not parse as each: "${popular.ranking}" (template: "frontdesk/route_list" - line 56, col 41)
+org.thymeleaf.exceptions.TemplateProcessingException: Could not parse as each: "${popular.ranking}" (template: "frontdesk/route_list" - line 56, col 41)
+	at org.thymeleaf.standard.expression.EachUtils.parseEach(EachUtils.java:68)
+	at org.thymeleaf.standard.processor.StandardEachTagProcessor.doProcess(StandardEachTagProcessor.java:59)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.OpenElementTag.beHandled(OpenElementTag.java:205)
+	at org.thymeleaf.engine.Model.process(Model.java:282)
+	at org.thymeleaf.engine.Model.process(Model.java:290)
+	at org.thymeleaf.engine.IteratedGatheringModelProcessable.processIterationModel(IteratedGatheringModelProcessable.java:367)
+	at org.thymeleaf.engine.IteratedGatheringModelProcessable.process(IteratedGatheringModelProcessable.java:221)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleCloseElement(ProcessorTemplateHandler.java:1640)
+	at org.thymeleaf.engine.CloseElementTag.beHandled(CloseElementTag.java:139)
+	at org.thymeleaf.engine.TemplateModel.process(TemplateModel.java:136)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:661)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:366)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1401)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1145)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1084)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:327)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:122)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:109)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:223)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:217)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:112)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:82)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1787)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+11:42:01.193 [http-nio-80-exec-1] ERROR o.a.c.c.C.[.[localhost].[/].[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateProcessingException: Could not parse as each: "${popular.ranking}" (template: "frontdesk/route_list" - line 56, col 41)] with root cause
+org.thymeleaf.exceptions.TemplateProcessingException: Could not parse as each: "${popular.ranking}" (template: "frontdesk/route_list" - line 56, col 41)
+	at org.thymeleaf.standard.expression.EachUtils.parseEach(EachUtils.java:68)
+	at org.thymeleaf.standard.processor.StandardEachTagProcessor.doProcess(StandardEachTagProcessor.java:59)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.OpenElementTag.beHandled(OpenElementTag.java:205)
+	at org.thymeleaf.engine.Model.process(Model.java:282)
+	at org.thymeleaf.engine.Model.process(Model.java:290)
+	at org.thymeleaf.engine.IteratedGatheringModelProcessable.processIterationModel(IteratedGatheringModelProcessable.java:367)
+	at org.thymeleaf.engine.IteratedGatheringModelProcessable.process(IteratedGatheringModelProcessable.java:221)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleCloseElement(ProcessorTemplateHandler.java:1640)
+	at org.thymeleaf.engine.CloseElementTag.beHandled(CloseElementTag.java:139)
+	at org.thymeleaf.engine.TemplateModel.process(TemplateModel.java:136)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:661)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:366)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1401)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1145)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1084)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:327)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:122)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:109)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:223)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:217)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:112)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:82)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1787)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+11:42:04.292 [http-nio-80-exec-8] ERROR org.thymeleaf.TemplateEngine - [THYMELEAF][http-nio-80-exec-8] Exception processing template "frontdesk/route_list": Could not parse as each: "${popular.ranking}" (template: "frontdesk/route_list" - line 56, col 41)
+org.thymeleaf.exceptions.TemplateProcessingException: Could not parse as each: "${popular.ranking}" (template: "frontdesk/route_list" - line 56, col 41)
+	at org.thymeleaf.standard.expression.EachUtils.parseEach(EachUtils.java:68)
+	at org.thymeleaf.standard.processor.StandardEachTagProcessor.doProcess(StandardEachTagProcessor.java:59)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.OpenElementTag.beHandled(OpenElementTag.java:205)
+	at org.thymeleaf.engine.Model.process(Model.java:282)
+	at org.thymeleaf.engine.Model.process(Model.java:290)
+	at org.thymeleaf.engine.IteratedGatheringModelProcessable.processIterationModel(IteratedGatheringModelProcessable.java:367)
+	at org.thymeleaf.engine.IteratedGatheringModelProcessable.process(IteratedGatheringModelProcessable.java:221)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleCloseElement(ProcessorTemplateHandler.java:1640)
+	at org.thymeleaf.engine.CloseElementTag.beHandled(CloseElementTag.java:139)
+	at org.thymeleaf.engine.TemplateModel.process(TemplateModel.java:136)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:592)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:366)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1401)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1145)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1084)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:327)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:122)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:109)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:223)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:217)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:112)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:82)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1787)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+11:42:04.293 [http-nio-80-exec-8] ERROR o.a.c.c.C.[.[localhost].[/].[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateProcessingException: Could not parse as each: "${popular.ranking}" (template: "frontdesk/route_list" - line 56, col 41)] with root cause
+org.thymeleaf.exceptions.TemplateProcessingException: Could not parse as each: "${popular.ranking}" (template: "frontdesk/route_list" - line 56, col 41)
+	at org.thymeleaf.standard.expression.EachUtils.parseEach(EachUtils.java:68)
+	at org.thymeleaf.standard.processor.StandardEachTagProcessor.doProcess(StandardEachTagProcessor.java:59)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.OpenElementTag.beHandled(OpenElementTag.java:205)
+	at org.thymeleaf.engine.Model.process(Model.java:282)
+	at org.thymeleaf.engine.Model.process(Model.java:290)
+	at org.thymeleaf.engine.IteratedGatheringModelProcessable.processIterationModel(IteratedGatheringModelProcessable.java:367)
+	at org.thymeleaf.engine.IteratedGatheringModelProcessable.process(IteratedGatheringModelProcessable.java:221)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleCloseElement(ProcessorTemplateHandler.java:1640)
+	at org.thymeleaf.engine.CloseElementTag.beHandled(CloseElementTag.java:139)
+	at org.thymeleaf.engine.TemplateModel.process(TemplateModel.java:136)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:592)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:366)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1401)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1145)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1084)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:327)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:122)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:109)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:223)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:217)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:112)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:82)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1787)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+11:42:20.643 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+11:42:20.651 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+11:42:23.839 [main] INFO  com.itbaizhan.travel.TravelApplication - Starting TravelApplication using Java 11.0.21 on LAPTOP-MVCHB40V with PID 18160 (C:\Users\HX\IdeaProjects\travel\target\classes started by HX in C:\Users\HX\IdeaProjects\travel)
+11:42:23.842 [main] INFO  com.itbaizhan.travel.TravelApplication - No active profile set, falling back to 1 default profile: "default"
+11:42:24.809 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+11:42:24.816 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+11:42:24.816 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+11:42:24.816 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+11:42:24.886 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+11:42:24.886 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1008 ms
+11:42:27.491 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@65db548, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@150f41b9, org.springframework.security.web.context.SecurityContextPersistenceFilter@7e2c6fd6, org.springframework.security.web.header.HeaderWriterFilter@25fa6889, org.springframework.web.filter.CorsFilter@6e364f1f, org.springframework.security.web.authentication.logout.LogoutFilter@3e2d8623, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@72715e61, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@68d8eb4f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@24a8e40d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@429e7914, org.springframework.security.web.session.SessionManagementFilter@31693a86, org.springframework.security.web.access.ExceptionTranslationFilter@299fc582, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5a51336a]
+11:42:27.529 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+11:42:27.542 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path ''
+11:42:27.550 [main] INFO  com.itbaizhan.travel.TravelApplication - Started TravelApplication in 4.007 seconds (JVM running for 5.541)
+11:42:32.799 [http-nio-80-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:42:32.800 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+11:42:32.801 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+11:42:32.834 [http-nio-80-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+11:42:33.034 [http-nio-80-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+11:42:33.489 [http-nio-80-exec-2] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 11:42:33 CST 2024, executionTime=2, username=null, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:42:55.381 [http-nio-80-exec-5] WARN  org.apache.catalina.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [869] milliseconds.
+11:42:55.391 [http-nio-80-exec-4] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/backstage/admin_login, visitTime=Mon Jan 08 11:42:55 CST 2024, executionTime=3, username=null, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:42:55.421 [http-nio-80-exec-8] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 11:42:55 CST 2024, executionTime=0, username=null, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:43:00.705 [http-nio-80-exec-6] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/backstage/index, visitTime=Mon Jan 08 11:43:00 CST 2024, executionTime=0, username=小黑子, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:43:00.856 [http-nio-80-exec-2] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 11:43:00 CST 2024, executionTime=0, username=小黑子, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:43:01.942 [http-nio-80-exec-2] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 11:43:01 CST 2024, executionTime=0, username=小黑子, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:43:02.604 [http-nio-80-exec-8] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 11:43:02 CST 2024, executionTime=0, username=小黑子, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:45:31.577 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+11:45:31.585 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+11:45:34.997 [main] INFO  com.itbaizhan.travel.TravelApplication - Starting TravelApplication using Java 11.0.21 on LAPTOP-MVCHB40V with PID 804 (C:\Users\HX\IdeaProjects\travel\target\classes started by HX in C:\Users\HX\IdeaProjects\travel)
+11:45:34.999 [main] INFO  com.itbaizhan.travel.TravelApplication - No active profile set, falling back to 1 default profile: "default"
+11:45:35.986 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+11:45:35.992 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+11:45:35.993 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+11:45:35.993 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+11:45:36.064 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+11:45:36.064 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1028 ms
+11:45:38.880 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@61dd1c3d, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7858d31d, org.springframework.security.web.context.SecurityContextPersistenceFilter@1e29a81a, org.springframework.security.web.header.HeaderWriterFilter@6f8ac8d5, org.springframework.web.filter.CorsFilter@782e6b40, org.springframework.security.web.authentication.logout.LogoutFilter@64757d56, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4813d0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@25fa6889, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3d71e10b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3b65084e, org.springframework.security.web.session.SessionManagementFilter@6ac756b, org.springframework.security.web.access.ExceptionTranslationFilter@4a833595, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1a7e799e]
+11:45:38.919 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+11:45:38.933 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path ''
+11:45:38.941 [main] INFO  com.itbaizhan.travel.TravelApplication - Started TravelApplication in 4.286 seconds (JVM running for 5.91)
+11:45:39.093 [http-nio-80-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:45:39.094 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+11:45:39.095 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+11:45:40.098 [http-nio-80-exec-1] WARN  org.apache.catalina.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [973] milliseconds.
+11:45:40.122 [http-nio-80-exec-2] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/backstage/admin_login, visitTime=Mon Jan 08 11:45:40 CST 2024, executionTime=3, username=null, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:45:40.272 [http-nio-80-exec-5] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 11:45:40 CST 2024, executionTime=0, username=null, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:45:43.393 [http-nio-80-exec-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+11:45:43.589 [http-nio-80-exec-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+11:45:43.785 [http-nio-80-exec-6] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/backstage/index, visitTime=Mon Jan 08 11:45:43 CST 2024, executionTime=0, username=小黑子, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:45:44.024 [http-nio-80-exec-4] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 11:45:44 CST 2024, executionTime=0, username=小黑子, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:45:45.058 [http-nio-80-exec-1] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 11:45:45 CST 2024, executionTime=0, username=小黑子, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:45:45.656 [http-nio-80-exec-1] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 11:45:45 CST 2024, executionTime=0, username=小黑子, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:46:12.227 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+11:46:12.237 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+11:46:15.455 [main] INFO  com.itbaizhan.travel.TravelApplication - Starting TravelApplication using Java 11.0.21 on LAPTOP-MVCHB40V with PID 16496 (C:\Users\HX\IdeaProjects\travel\target\classes started by HX in C:\Users\HX\IdeaProjects\travel)
+11:46:15.457 [main] INFO  com.itbaizhan.travel.TravelApplication - No active profile set, falling back to 1 default profile: "default"
+11:46:16.477 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+11:46:16.484 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+11:46:16.484 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+11:46:16.484 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+11:46:16.556 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+11:46:16.556 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1061 ms
+11:46:19.283 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@53ba7997, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3f6f9cef, org.springframework.security.web.context.SecurityContextPersistenceFilter@4a833595, org.springframework.security.web.header.HeaderWriterFilter@2a5c6b76, org.springframework.web.filter.CorsFilter@61dd1c3d, org.springframework.security.web.authentication.logout.LogoutFilter@7e31d53b, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@68d8eb4f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7b4b8199, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3b30eec5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7858d31d, org.springframework.security.web.session.SessionManagementFilter@3d88ce0e, org.springframework.security.web.access.ExceptionTranslationFilter@531a716c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6afeaf2d]
+11:46:19.321 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+11:46:19.334 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path ''
+11:46:19.342 [main] INFO  com.itbaizhan.travel.TravelApplication - Started TravelApplication in 4.191 seconds (JVM running for 5.758)
+11:46:19.485 [http-nio-80-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:46:19.486 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+11:46:19.487 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+11:46:20.494 [http-nio-80-exec-1] WARN  org.apache.catalina.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [976] milliseconds.
+11:46:20.518 [http-nio-80-exec-3] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/backstage/admin_login, visitTime=Mon Jan 08 11:46:20 CST 2024, executionTime=1, username=null, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:46:20.661 [http-nio-80-exec-5] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 11:46:20 CST 2024, executionTime=0, username=null, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:46:24.117 [http-nio-80-exec-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+11:46:24.294 [http-nio-80-exec-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+11:46:24.461 [http-nio-80-exec-6] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/backstage/index, visitTime=Mon Jan 08 11:46:24 CST 2024, executionTime=0, username=小黑子, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:46:24.702 [http-nio-80-exec-10] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 11:46:24 CST 2024, executionTime=0, username=小黑子, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:46:25.404 [http-nio-80-exec-7] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 11:46:25 CST 2024, executionTime=0, username=小黑子, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:46:26.755 [http-nio-80-exec-10] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 11:46:26 CST 2024, executionTime=0, username=小黑子, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:46:55.618 [http-nio-80-exec-5] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 11:46:55 CST 2024, executionTime=0, username=小黑子, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:46:58.707 [http-nio-80-exec-6] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 11:46:58 CST 2024, executionTime=0, username=小黑子, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:47:34.858 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+11:47:34.866 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+11:47:38.190 [main] INFO  com.itbaizhan.travel.TravelApplication - Starting TravelApplication using Java 11.0.21 on LAPTOP-MVCHB40V with PID 6640 (C:\Users\HX\IdeaProjects\travel\target\classes started by HX in C:\Users\HX\IdeaProjects\travel)
+11:47:38.191 [main] INFO  com.itbaizhan.travel.TravelApplication - No active profile set, falling back to 1 default profile: "default"
+11:47:39.236 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+11:47:39.244 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+11:47:39.244 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+11:47:39.244 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+11:47:39.327 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+11:47:39.327 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1100 ms
+11:47:42.347 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@32d0d7eb, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@cae2a97, org.springframework.security.web.context.SecurityContextPersistenceFilter@370225c7, org.springframework.security.web.header.HeaderWriterFilter@31006a75, org.springframework.web.filter.CorsFilter@7d12429, org.springframework.security.web.authentication.logout.LogoutFilter@105dc04d, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@504b8705, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@305aaedf, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@69d2e517, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@14656be5, org.springframework.security.web.session.SessionManagementFilter@e97f115, org.springframework.security.web.access.ExceptionTranslationFilter@ff1f465, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2830315f]
+11:47:42.386 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+11:47:42.399 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path ''
+11:47:42.408 [main] INFO  com.itbaizhan.travel.TravelApplication - Started TravelApplication in 4.523 seconds (JVM running for 6.104)
+11:47:47.812 [http-nio-80-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:47:47.812 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+11:47:47.814 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+11:47:47.847 [http-nio-80-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+11:47:48.064 [http-nio-80-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+11:47:48.557 [http-nio-80-exec-10] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 11:47:48 CST 2024, executionTime=1, username=null, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:48:19.961 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+11:48:19.969 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+11:48:23.270 [main] INFO  com.itbaizhan.travel.TravelApplication - Starting TravelApplication using Java 11.0.21 on LAPTOP-MVCHB40V with PID 18352 (C:\Users\HX\IdeaProjects\travel\target\classes started by HX in C:\Users\HX\IdeaProjects\travel)
+11:48:23.273 [main] INFO  com.itbaizhan.travel.TravelApplication - No active profile set, falling back to 1 default profile: "default"
+11:48:24.326 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+11:48:24.333 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+11:48:24.333 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+11:48:24.333 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+11:48:24.412 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+11:48:24.412 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1103 ms
+11:48:27.091 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7d12429, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@14656be5, org.springframework.security.web.context.SecurityContextPersistenceFilter@299fc582, org.springframework.security.web.header.HeaderWriterFilter@7b4b8199, org.springframework.web.filter.CorsFilter@20be890d, org.springframework.security.web.authentication.logout.LogoutFilter@24a8e40d, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@175f859e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@43755e2f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7e2c6fd6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5db9f51f, org.springframework.security.web.session.SessionManagementFilter@6fced25c, org.springframework.security.web.access.ExceptionTranslationFilter@370225c7, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@75452aea]
+11:48:27.128 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+11:48:27.142 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path ''
+11:48:27.150 [main] INFO  com.itbaizhan.travel.TravelApplication - Started TravelApplication in 4.203 seconds (JVM running for 5.764)
+11:48:27.215 [http-nio-80-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:48:27.216 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+11:48:27.217 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+11:48:27.249 [http-nio-80-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+11:48:27.436 [http-nio-80-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+11:48:27.920 [http-nio-80-exec-2] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 11:48:27 CST 2024, executionTime=1, username=null, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:50:24.118 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+11:50:24.127 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+11:50:27.382 [main] INFO  com.itbaizhan.travel.TravelApplication - Starting TravelApplication using Java 11.0.21 on LAPTOP-MVCHB40V with PID 9940 (C:\Users\HX\IdeaProjects\travel\target\classes started by HX in C:\Users\HX\IdeaProjects\travel)
+11:50:27.383 [main] INFO  com.itbaizhan.travel.TravelApplication - No active profile set, falling back to 1 default profile: "default"
+11:50:28.375 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+11:50:28.382 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+11:50:28.383 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+11:50:28.383 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+11:50:28.456 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+11:50:28.456 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1036 ms
+11:50:31.067 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@34cb0e49, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@48b2dbc4, org.springframework.security.web.context.SecurityContextPersistenceFilter@6f8ac8d5, org.springframework.security.web.header.HeaderWriterFilter@4a833595, org.springframework.web.filter.CorsFilter@2a667f44, org.springframework.security.web.authentication.logout.LogoutFilter@778c2e7c, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@b70fa38, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@299fc582, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@31693a86, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@53ba7997, org.springframework.security.web.session.SessionManagementFilter@49122853, org.springframework.security.web.access.ExceptionTranslationFilter@2a5c6b76, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5341e71a]
+11:50:31.107 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+11:50:31.121 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path ''
+11:50:31.129 [main] INFO  com.itbaizhan.travel.TravelApplication - Started TravelApplication in 4.044 seconds (JVM running for 5.616)
+11:50:37.970 [http-nio-80-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:50:37.970 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+11:50:37.972 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+11:50:38.009 [http-nio-80-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+11:50:38.231 [http-nio-80-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+11:50:38.720 [http-nio-80-exec-2] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 11:50:38 CST 2024, executionTime=1, username=null, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:50:46.314 [http-nio-80-exec-5] WARN  org.apache.catalina.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [924] milliseconds.
+11:50:46.323 [http-nio-80-exec-10] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/backstage/admin_login, visitTime=Mon Jan 08 11:50:46 CST 2024, executionTime=1, username=null, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:50:46.331 [http-nio-80-exec-6] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/backstage/admin_login, visitTime=Mon Jan 08 11:50:46 CST 2024, executionTime=0, username=null, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:50:46.337 [http-nio-80-exec-1] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/backstage/admin_login, visitTime=Mon Jan 08 11:50:46 CST 2024, executionTime=0, username=null, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:50:46.343 [http-nio-80-exec-9] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 11:50:46 CST 2024, executionTime=0, username=null, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:50:46.717 [http-nio-80-exec-9] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 11:50:46 CST 2024, executionTime=0, username=null, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:51:40.052 [http-nio-80-exec-7] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 11:51:40 CST 2024, executionTime=0, username=null, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:51:44.962 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+11:51:44.972 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+11:51:48.378 [main] INFO  com.itbaizhan.travel.TravelApplication - Starting TravelApplication using Java 11.0.21 on LAPTOP-MVCHB40V with PID 15540 (C:\Users\HX\IdeaProjects\travel\target\classes started by HX in C:\Users\HX\IdeaProjects\travel)
+11:51:48.379 [main] INFO  com.itbaizhan.travel.TravelApplication - No active profile set, falling back to 1 default profile: "default"
+11:51:49.355 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+11:51:49.361 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+11:51:49.361 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+11:51:49.361 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+11:51:49.431 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+11:51:49.431 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1016 ms
+11:51:52.106 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@34cb0e49, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@48b2dbc4, org.springframework.security.web.context.SecurityContextPersistenceFilter@6f8ac8d5, org.springframework.security.web.header.HeaderWriterFilter@4a833595, org.springframework.web.filter.CorsFilter@2a667f44, org.springframework.security.web.authentication.logout.LogoutFilter@778c2e7c, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@b70fa38, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@299fc582, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@31693a86, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@53ba7997, org.springframework.security.web.session.SessionManagementFilter@49122853, org.springframework.security.web.access.ExceptionTranslationFilter@2a5c6b76, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5341e71a]
+11:51:52.139 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+11:51:52.155 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path ''
+11:51:52.163 [main] INFO  com.itbaizhan.travel.TravelApplication - Started TravelApplication in 4.078 seconds (JVM running for 5.589)
+11:51:52.336 [http-nio-80-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:51:52.337 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+11:51:52.337 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+11:51:52.372 [http-nio-80-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+11:51:52.554 [http-nio-80-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+11:51:53.007 [http-nio-80-exec-7] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 11:51:53 CST 2024, executionTime=1, username=null, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:51:58.915 [http-nio-80-exec-6] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 11:51:58 CST 2024, executionTime=0, username=null, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:51:58.948 [http-nio-80-exec-8] WARN  org.apache.catalina.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [918] milliseconds.
+11:57:12.114 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+11:57:12.122 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+11:57:16.402 [main] INFO  com.itbaizhan.travel.TravelApplication - Starting TravelApplication using Java 11.0.21 on LAPTOP-MVCHB40V with PID 21436 (C:\Users\HX\IdeaProjects\travel\target\classes started by HX in C:\Users\HX\IdeaProjects\travel)
+11:57:16.405 [main] INFO  com.itbaizhan.travel.TravelApplication - No active profile set, falling back to 1 default profile: "default"
+11:57:17.490 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+11:57:17.496 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+11:57:17.497 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+11:57:17.497 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+11:57:17.571 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+11:57:17.572 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1124 ms
+11:57:20.278 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1d1cfe4, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@ba562e0, org.springframework.security.web.context.SecurityContextPersistenceFilter@3d88ce0e, org.springframework.security.web.header.HeaderWriterFilter@531ec2ca, org.springframework.web.filter.CorsFilter@5a51336a, org.springframework.security.web.authentication.logout.LogoutFilter@7bc2bb58, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7e2c6fd6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@156324b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1b94c789, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4d8056bf, org.springframework.security.web.session.SessionManagementFilter@7019d619, org.springframework.security.web.access.ExceptionTranslationFilter@7ce30c0b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@13c90c06]
+11:57:20.318 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+11:57:20.333 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path ''
+11:57:20.342 [main] INFO  com.itbaizhan.travel.TravelApplication - Started TravelApplication in 4.239 seconds (JVM running for 5.778)
+11:57:24.524 [http-nio-80-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:57:24.526 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+11:57:24.527 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+11:57:24.562 [http-nio-80-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+11:57:24.786 [http-nio-80-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+11:57:25.268 [http-nio-80-exec-3] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 11:57:25 CST 2024, executionTime=1, username=null, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:57:26.993 [http-nio-80-exec-4] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 11:57:26 CST 2024, executionTime=0, username=null, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:57:29.284 [http-nio-80-exec-8] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 11:57:29 CST 2024, executionTime=0, username=null, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:57:30.507 [http-nio-80-exec-3] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 11:57:30 CST 2024, executionTime=0, username=null, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:57:33.175 [http-nio-80-exec-2] WARN  org.apache.catalina.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [877] milliseconds.
+11:57:33.185 [http-nio-80-exec-9] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/frontdesk/login, visitTime=Mon Jan 08 11:57:33 CST 2024, executionTime=2, username=null, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:57:33.227 [http-nio-80-exec-7] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/frontdesk/header.html, visitTime=Mon Jan 08 11:57:33 CST 2024, executionTime=0, username=null, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:57:33.227 [http-nio-80-exec-4] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/frontdesk/footer.html, visitTime=Mon Jan 08 11:57:33 CST 2024, executionTime=0, username=null, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:57:33.245 [http-nio-80-exec-5] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 11:57:33 CST 2024, executionTime=0, username=null, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:57:34.487 [http-nio-80-exec-5] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 11:57:34 CST 2024, executionTime=0, username=null, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:58:53.492 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+11:58:53.501 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+11:58:58.187 [main] INFO  com.itbaizhan.travel.TravelApplication - Starting TravelApplication using Java 11.0.21 on LAPTOP-MVCHB40V with PID 15836 (C:\Users\HX\IdeaProjects\travel\target\classes started by HX in C:\Users\HX\IdeaProjects\travel)
+11:58:58.189 [main] INFO  com.itbaizhan.travel.TravelApplication - No active profile set, falling back to 1 default profile: "default"
+11:58:59.231 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+11:58:59.236 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+11:58:59.237 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+11:58:59.237 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+11:58:59.312 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+11:58:59.312 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1081 ms
+11:59:02.010 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5a6f6cac, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@258a8584, org.springframework.security.web.context.SecurityContextPersistenceFilter@7e31d53b, org.springframework.security.web.header.HeaderWriterFilter@2aac8ad7, org.springframework.web.filter.CorsFilter@59127611, org.springframework.security.web.authentication.logout.LogoutFilter@4cfc0c48, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@59d5c537, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6501b105, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@52433946, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@553ce348, org.springframework.security.web.session.SessionManagementFilter@778c2e7c, org.springframework.security.web.access.ExceptionTranslationFilter@43755e2f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3f6f9cef]
+11:59:02.053 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+11:59:02.068 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path ''
+11:59:02.078 [main] INFO  com.itbaizhan.travel.TravelApplication - Started TravelApplication in 4.198 seconds (JVM running for 5.758)
+11:59:02.109 [http-nio-80-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:59:02.111 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+11:59:02.111 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+11:59:03.104 [http-nio-80-exec-1] WARN  org.apache.catalina.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [961] milliseconds.
+11:59:03.110 [http-nio-80-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+11:59:03.300 [http-nio-80-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+11:59:03.692 [http-nio-80-exec-2] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 11:59:03 CST 2024, executionTime=0, username=null, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:59:25.272 [http-nio-80-exec-9] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 11:59:25 CST 2024, executionTime=0, username=null, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:59:26.336 [http-nio-80-exec-8] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 11:59:26 CST 2024, executionTime=0, username=null, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:59:29.810 [http-nio-80-exec-6] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/frontdesk/login, visitTime=Mon Jan 08 11:59:29 CST 2024, executionTime=3, username=null, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:59:29.852 [http-nio-80-exec-2] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/frontdesk/header.html, visitTime=Mon Jan 08 11:59:29 CST 2024, executionTime=0, username=null, ip=127.0.0.1, exceptionMessage=null)
+11:59:29.852 [http-nio-80-exec-3] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/frontdesk/footer.html, visitTime=Mon Jan 08 11:59:29 CST 2024, executionTime=0, username=null, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:59:29.870 [http-nio-80-exec-1] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 11:59:29 CST 2024, executionTime=0, username=null, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:59:34.701 [http-nio-80-exec-5] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/frontdesk/index, visitTime=Mon Jan 08 11:59:34 CST 2024, executionTime=0, username=null, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:59:34.817 [http-nio-80-exec-3] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 11:59:34 CST 2024, executionTime=0, username=null, ip=127.0.0.1, exceptionMessage=null)
+11:59:35.851 [http-nio-80-exec-1] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 11:59:35 CST 2024, executionTime=0, username=null, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:59:40.517 [http-nio-80-exec-4] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 11:59:40 CST 2024, executionTime=0, username=null, ip=127.0.0.1, exceptionMessage=null)
+11:59:41.932 [http-nio-80-exec-5] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 11:59:41 CST 2024, executionTime=0, username=null, ip=127.0.0.1, exceptionMessage=null)
+11:59:42.833 [http-nio-80-exec-7] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 11:59:42 CST 2024, executionTime=0, username=null, ip=127.0.0.1, exceptionMessage=null)
+11:59:53.021 [http-nio-80-exec-7] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 11:59:53 CST 2024, executionTime=0, username=null, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:59:54.534 [http-nio-80-exec-7] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 11:59:54 CST 2024, executionTime=0, username=null, ip=127.0.0.1, exceptionMessage=null)
+11:59:55.668 [http-nio-80-exec-6] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 11:59:55 CST 2024, executionTime=0, username=null, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+11:59:56.257 [http-nio-80-exec-2] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 11:59:56 CST 2024, executionTime=0, username=null, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+12:00:12.449 [http-nio-80-exec-10] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 12:00:12 CST 2024, executionTime=0, username=null, ip=127.0.0.1, exceptionMessage=null)
+12:00:16.918 [http-nio-80-exec-10] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 12:00:16 CST 2024, executionTime=0, username=null, ip=127.0.0.1, exceptionMessage=null)
+12:00:18.577 [http-nio-80-exec-10] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 12:00:18 CST 2024, executionTime=0, username=null, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+12:00:19.841 [http-nio-80-exec-6] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 12:00:19 CST 2024, executionTime=0, username=null, ip=127.0.0.1, exceptionMessage=null)
+12:00:21.045 [http-nio-80-exec-4] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 12:00:21 CST 2024, executionTime=0, username=null, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+12:00:21.762 [http-nio-80-exec-3] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 12:00:21 CST 2024, executionTime=0, username=null, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+12:00:22.700 [http-nio-80-exec-3] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 12:00:22 CST 2024, executionTime=0, username=null, ip=127.0.0.1, exceptionMessage=null)
+12:00:22.858 [http-nio-80-exec-3] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 12:00:22 CST 2024, executionTime=0, username=null, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+12:01:29.647 [http-nio-80-exec-7] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 12:01:29 CST 2024, executionTime=0, username=null, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+12:01:31.584 [http-nio-80-exec-7] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 12:01:31 CST 2024, executionTime=0, username=null, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+12:01:35.393 [http-nio-80-exec-5] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 12:01:35 CST 2024, executionTime=0, username=null, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+12:01:36.624 [http-nio-80-exec-5] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 12:01:36 CST 2024, executionTime=0, username=null, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+12:01:49.177 [http-nio-80-exec-1] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 12:01:49 CST 2024, executionTime=0, username=null, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+12:01:50.479 [http-nio-80-exec-1] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 12:01:50 CST 2024, executionTime=0, username=null, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+12:01:52.311 [http-nio-80-exec-4] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 12:01:52 CST 2024, executionTime=0, username=null, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+12:01:53.421 [http-nio-80-exec-7] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 12:01:53 CST 2024, executionTime=0, username=null, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+12:01:53.836 [http-nio-80-exec-5] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 12:01:53 CST 2024, executionTime=0, username=null, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+12:01:54.807 [http-nio-80-exec-5] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 12:01:54 CST 2024, executionTime=0, username=null, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+12:01:55.935 [http-nio-80-exec-6] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 12:01:55 CST 2024, executionTime=0, username=null, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+12:01:56.605 [http-nio-80-exec-9] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 12:01:56 CST 2024, executionTime=0, username=null, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+12:01:57.402 [http-nio-80-exec-10] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 12:01:57 CST 2024, executionTime=0, username=null, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+12:01:57.787 [http-nio-80-exec-9] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 12:01:57 CST 2024, executionTime=0, username=null, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+12:01:59.175 [http-nio-80-exec-4] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 12:01:59 CST 2024, executionTime=0, username=null, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+12:01:59.666 [http-nio-80-exec-9] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 12:01:59 CST 2024, executionTime=0, username=null, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+12:02:00.484 [http-nio-80-exec-4] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 12:02:00 CST 2024, executionTime=0, username=null, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+12:02:01.110 [http-nio-80-exec-9] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 12:02:01 CST 2024, executionTime=0, username=null, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+12:02:01.533 [http-nio-80-exec-4] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 12:02:01 CST 2024, executionTime=0, username=null, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+12:02:02.095 [http-nio-80-exec-2] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/frontdesk/index, visitTime=Mon Jan 08 12:02:02 CST 2024, executionTime=0, username=null, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+12:02:02.194 [http-nio-80-exec-8] INFO  com.itbaizhan.travel.AOP.LogAop - Log(url=/favicon.ico, visitTime=Mon Jan 08 12:02:02 CST 2024, executionTime=0, username=null, ip=0:0:0:0:0:0:0:1, exceptionMessage=null)
+12:05:05.709 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+12:05:05.717 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity5">
+<head>
+    <meta charset="UTF-8">
+    <title>主页面</title>
+</head>
+<body>
+<h1>主页面</h1>
+<a href="/users/username">获取用户名</a>
+
+<a href="/logout">退出登录</a>
+
+<ul>
+    <li sec:authorize="hasAnyAuthority('/reportform/find')"><a href="/reportform/find">查询报表</a></li>
+    <li sec:authorize="hasAnyAuthority('/salary/find')"><a href="/salary/find">查询工作</a></li>
+    <li sec:authorize="hasAnyAuthority('/staff/find')"><a href="/staff/find">查询员工</a></li>
+</ul>
+</body>
+</html>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.itbaizhan</groupId>
+    <artifactId>dubbo_parent</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <modules>
+        <!-- 公共user — api -->
+        <module>user_api</module>
+        <!--用户服务生产者-->
+        <module>user_provider</module>
+    </modules>
+
+    <properties>
+        <dubbo.spring.starter.version>2.7.6</dubbo.spring.starter.version>
+        <dubbo.registry.zookeeper.version>2.7.6</dubbo.registry.zookeeper.version>
+        <mybatisplus.spring.starter.version>3.5.0</mybatisplus.spring.starter.version>
+        <mysql.connector.version>5.1.49</mysql.connector.version>
+    </properties>
+
+
+    <dependencyManagement>
+        <dependencies>
+            <!-- Dubbo 依赖 -->
+            <dependency>
+                <groupId>org.apache.dubbo</groupId>
+                <artifactId>dubbo-spring-boot-starter</artifactId>
+                <version>${dubbo.spring.starter.version}</version>
+            </dependency>
+            <!-- zookeeper 注册中心 依赖 -->
+            <dependency>
+                <groupId>org.apache.dubbo</groupId>
+                <artifactId>dubbo-registry-zookeeper</artifactId>
+                <version>${dubbo.registry.zookeeper.version}</version>
+            </dependency>
+            <!-- Mybatis plus 依赖 -->
+            <dependency>
+                <groupId>com.baomidou</groupId>
+                <artifactId>mybatis-plus-boot-starter</artifactId>
+                <version>${mybatisplus.spring.starter.version}</version>
+            </dependency>
+            <!--MySQL 数据库依赖 -->
+            <dependency>
+                <groupId>mysql</groupId>
+                <artifactId>mysql-connector-java</artifactId>
+                <version>${mysql.connector.version}</version>
+            </dependency>
+
+            <!--lombok-->
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>1.18.30</version>
+            </dependency>
+
+        </dependencies>
+    </dependencyManagement>
+
+    <!--指定jdk版本-->
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.1</version>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>

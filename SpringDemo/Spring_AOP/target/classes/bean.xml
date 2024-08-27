@@ -1,0 +1,35 @@
+<!--
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+     http://www.springframework.org/schema/beans/spring-beans.xsd
+     http://www.springframework.org/schema/context
+     http://www.springframework.org/schema/context/spring-context.xsd
+     http://www.springframework.org/schema/aop
+     http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    &lt;!&ndash;扫描包&ndash;&gt;
+    <context:component-scan base-package="com.itbaizhan"/>
+
+    &lt;!&ndash;通知对象&ndash;&gt;
+    <bean name="myAspectJAdvice" class="com.itbaizhan.advice.MyAspectJAdvice"/>
+
+    &lt;!&ndash;配置AOP&ndash;&gt;
+    <aop:config>
+        &lt;!&ndash;配置切面&ndash;&gt;
+        <aop:aspect ref="myAspectJAdvice">
+            &lt;!&ndash;配置切点&ndash;&gt;
+            <aop:pointcut id="myPointcut" expression="execution(* com.itbaizhan.dao.UserDao.*(..))"/>
+            &lt;!&ndash;配置通知&ndash;&gt;
+&lt;!&ndash;            <aop:before method="myBefore" pointcut-ref="myPointcut"/>&ndash;&gt;
+&lt;!&ndash;            <aop:after-returning method="myAfterReturning" pointcut-ref="myPointcut"/>&ndash;&gt;
+&lt;!&ndash;            <aop:after-throwing method="myAfterThrowing" pointcut-ref="myPointcut" throwing="exception"/>&ndash;&gt;
+&lt;!&ndash;            <aop:after method="myAfter" pointcut-ref="myPointcut"/>&ndash;&gt;
+            <aop:around method="myAround" pointcut-ref="myPointcut"/>
+        </aop:aspect>
+    </aop:config>
+</beans>
+-->

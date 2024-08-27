@@ -1,0 +1,49 @@
+server:
+  port: 8888
+
+# 自定义简单数据类型
+name: root
+
+# 自定义对象数据类型
+student:
+  sex: female
+  name: root
+  age: 10
+
+# 自定义对象数据类型方法二
+student2: {sex: female,name: root,age: 10,}
+
+# 自定义集合类型
+city1:
+  - beijing
+  - shanghai
+  - tianjin
+  - chongqing
+
+# 方式二
+city2: [beijing,tianjin,chongqing,shanghai]
+
+# 自定义集合类型中存放对象类型
+students:
+  - name: root
+    sex: female
+    age: 10
+  - name: root2
+    sex: male
+    age: 20
+  - name: root3
+    sex: female
+    age: 15
+
+user:
+  name:
+  age: 21
+  game:
+    - wangzherongyao
+    - cs
+    - nba2k
+  address:
+    - name: qixian
+      age: 200
+    - name: shanghai
+      age: 2000

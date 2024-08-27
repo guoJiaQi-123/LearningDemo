@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.itbaizhan.mapper2.StudentMapper2">
+
+    <select id="findAllStudentByClassId" resultType="com.itbaizhan.pojo.Student" parameterType="int">
+        select * from student where classId = #{classId}
+    </select>
+
+
+
+    <resultMap id="MyStudentMapper" type="com.itbaizhan.pojo.Student">
+        <id column="sid" property="sid"/>
+        <result column="name" property="name"/>
+        <result column="sex" property="sex"/>
+        <result column="age" property="age"/>
+        <association property="classes" javaType="com.itbaizhan.pojo.Classes"
+                     select="com.itbaizhan.mapper2.ClassesMapper2.findAllClassesByStudentId" column="classId"></association>
+    </resultMap>
+    <select id="findAllStudent" resultMap="MyStudentMapper">
+        select * from student
+    </select>
+
+</mapper>

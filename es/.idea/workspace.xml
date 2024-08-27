@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="df6f46f7-827a-4c8f-8cfb-677aa6d0ab65" name="更改" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="customMavenHome" value="D:/Program Files/Lenovo/apache-maven-3.8.3" />
+        <option name="localRepository" value="E:\repository" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+        <option name="userSettingsFile" value="D:\Program Files\Lenovo\apache-maven-3.8.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2hx8iOMc0FkJQ4mIvoqeglEOGSv" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="openDirectoriesWithSingleClick" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showScratchesAndConsoles" value="false" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.ProductRepositoryTest.deleteProductById.executor": "Run",
+    "JUnit.ProductRepositoryTest.findAllProduct.executor": "Run",
+    "JUnit.ProductRepositoryTest.findByProductDescFuzzy.executor": "Run",
+    "JUnit.ProductRepositoryTest.findPage.executor": "Run",
+    "JUnit.ProductRepositoryTest.findProductByDesc.executor": "Run",
+    "JUnit.ProductRepositoryTest.findProductById.executor": "Run",
+    "JUnit.ProductRepositoryTest.testSave.executor": "Run",
+    "JUnit.ProductRepositoryTest.updateProduct.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "jdk.selected.JAVA_MODULE": "corretto-17",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "File.Encoding",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="JUnit.ProductRepositoryTest.findProductByDesc">
+    <configuration name="ProductRepositoryTest.addProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springdataelasticsearch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tyut.springdataelasticsearch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tyut.springdataelasticsearch" />
+      <option name="MAIN_CLASS_NAME" value="com.tyut.springdataelasticsearch.ProductRepositoryTest" />
+      <option name="METHOD_NAME" value="addProduct" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductRepositoryTest.findByProductDescFuzzy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springdataelasticsearch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tyut.springdataelasticsearch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tyut.springdataelasticsearch" />
+      <option name="MAIN_CLASS_NAME" value="com.tyut.springdataelasticsearch.ProductRepositoryTest" />
+      <option name="METHOD_NAME" value="findByProductDescFuzzy" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductRepositoryTest.findPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springdataelasticsearch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tyut.springdataelasticsearch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tyut.springdataelasticsearch" />
+      <option name="MAIN_CLASS_NAME" value="com.tyut.springdataelasticsearch.ProductRepositoryTest" />
+      <option name="METHOD_NAME" value="findPage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductRepositoryTest.findProductByDesc" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springdataelasticsearch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tyut.springdataelasticsearch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tyut.springdataelasticsearch" />
+      <option name="MAIN_CLASS_NAME" value="com.tyut.springdataelasticsearch.ProductRepositoryTest" />
+      <option name="METHOD_NAME" value="findProductByDesc" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductRepositoryTest.findProductById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springdataelasticsearch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tyut.springdataelasticsearch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tyut.springdataelasticsearch" />
+      <option name="MAIN_CLASS_NAME" value="com.tyut.springdataelasticsearch.ProductRepositoryTest" />
+      <option name="METHOD_NAME" value="findProductById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringdataelasticsearchApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="springdataelasticsearch" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tyut.springdataelasticsearch.SpringdataelasticsearchApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ProductRepositoryTest.findProductByDesc" />
+        <item itemvalue="JUnit.ProductRepositoryTest.findPage" />
+        <item itemvalue="JUnit.ProductRepositoryTest.findByProductDescFuzzy" />
+        <item itemvalue="JUnit.ProductRepositoryTest.addProduct" />
+        <item itemvalue="JUnit.ProductRepositoryTest.findProductById" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="df6f46f7-827a-4c8f-8cfb-677aa6d0ab65" name="更改" comment="" />
+      <created>1699928824701</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1699928824701</updated>
+      <workItem from="1718524498742" duration="3133000" />
+      <workItem from="1718528490436" duration="2477000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

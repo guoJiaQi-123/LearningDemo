@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.itbaizhan.mapper.UserMapper2">
+    
+   <select id="findUserByCondition" parameterType="User" resultType="User">
+
+        select * from user where 1 = 1
+        <if test="username != null and username.length() != 0">
+            <bind name="likeName" value="'%'+username+'%'"/>
+            and username like #{likeName}
+        </if>
+        <if test="sex != null and sex.length()!=0">
+            and sex = #{sex}
+        </if>
+       <if test="address != null and address.length()!=0">
+           and address = #{address}
+       </if>
+   </select>
+
+    <update id="updateUser" parameterType="user">
+        update user
+        <set>
+            <if test="username!=null and username.length()!=0">
+                username = #{username},
+            </if>
+            <if test="sex!=null and sex.length()!=0">
+                sex = #{sex},
+            </if>
+            <if test="address!=null and address.length()!=0">
+                address = #{address}
+            </if>
+        </set>
+        <where>
+            id = #{id}
+        </where>
+    </update>
+    
+    <select id="findUserByUsername" parameterType="string" resultType="user">
+        select * from user 
+        <where>
+            <choose>
+                <when test="username.length() &lt; 5">
+                    <bind name="likeName" value="'%'+username+'%'"/>
+                    username like #{likeName}
+                </when>
+                <when test="username.length()&lt;10">
+                    username = #{username}
+                </when>
+                <otherwise>
+                    id = 1
+                </otherwise>
+            </choose>
+        </where>
+    </select>
+
+
+    <delete id="deleteBatch" parameterType="int">
+        delete from user
+        <where>
+            <foreach collection="array" open="id in (" separator="," close=")" item="id">
+                #{id}
+            </foreach>
+        </where>
+    </delete>
+
+    <insert id="addBatch" parameterType="user">
+        insert into user (username,sex,address) values
+        <foreach collection="list" separator="," item="user">
+            (#{user.username},#{user.sex},#{user.address})
+        </foreach>
+    </insert>
+
+    <select id="findUser" parameterType="map" resultType="user">
+        select * from user
+        <where>
+            <foreach collection="queryMap" item="value" index="key" separator="and">
+                ${key}=#{value}
+            </foreach>
+        </where>
+    </select>
+</mapper>

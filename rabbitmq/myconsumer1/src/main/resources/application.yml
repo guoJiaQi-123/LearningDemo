@@ -1,0 +1,22 @@
+#配置rabbitmq
+spring:
+  rabbitmq:
+    host: 192.168.66.200
+    port: 5672
+    username: rabbit
+    password: rabbit
+    virtual-host: /
+    listener:
+      simple:
+        # 限流必须开启消费者手动签收消息
+        acknowledge-mode: manual
+        # 消费端消息限流,消费端最多拉取5条消息消费，签收后不满5条才会继续拉取消息。
+#        prefetch: 5
+        # 将消费端限流设置为1，实现不公平分发
+        prefetch: 1 # 消费端最多拉取1条消息消费，这样谁处理的快谁拉取下一条消息，实现了不公平分发
+
+
+#日志格式
+logging:
+  pattern:
+    console: '%d{HH:mm:ss.SSS} %clr(%-5level) ---  [%-15thread] %cyan(%-50logger{50}):%msg%n'

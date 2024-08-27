@@ -1,0 +1,6 @@
+rocketmq:
+  # nameserver的地址
+  name-server: 192.168.66.200:9876
+  #指定生产组名称
+  producer:
+    group: my-group

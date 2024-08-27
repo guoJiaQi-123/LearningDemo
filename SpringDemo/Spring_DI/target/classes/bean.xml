@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+        <bean id="userDao" class="com.itbaizhan.dao.UserDaoImpl"/>
+        <bean id="userService" class="com.itbaizhan.service.UserService">
+                <!--调用setter方法依赖注入-->
+                <!--name:属性名   ref:依赖对象id-->
+                <property name="userDao" ref="userDao"></property>
+
+                <!--调用构造方法依赖注入-->
+                <!--name:属性名   ref:依赖对象id-->
+                <!--<constructor-arg name="userDao" ref="userDao"/>-->
+        </bean>
+
+</beans>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!--引入thymeleaf命名空间-->
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!-- 静态页面显示太原理工大学，动态页面使用后端传来的msg数据代替 -->
+<!-- thymeleaf支持el表达式 -->
+<h1 th:text="${msg}">太原理工大学</h1>
+<input th:value="${msg}">
+
+<table border="1" width="50%" align="center">
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Age</th>
+    </tr>
+    <!-- 遍历集合的每一项起名为user -->
+    <tr th:each="user:${users}">
+        <td th:text="${user.id}" align="center"></td>
+        <td th:text="${user.name}" align="center"></td>
+        <td th:text="${user.age}" align="center"></td>
+    </tr>
+</table>
+<hr/>
+
+request1: <span th:text="${#request.getAttribute('req')}"/><br>
+request2:<span th:text="${#httpServletRequest.getAttribute('req')}"/><br>
+<hr/>
+
+
+session1: <span th:text="${session.ses}"/><br>
+session2: <span th:text="${#httpSession.getAttribute('ses')}"/><br>
+<hr/>
+
+
+application1: <span th:text="${application.app}"/><br>
+application2:<span th:text="${#servletContext.getAttribute('app')}"/><br>
+
+<a th:href="@{http://www.baidu.com}">百度</a>
+
+<a th:href="@{show2?id=1&name='zhangsan'}">静态参数1</a><br>
+<a th:href="@{show2(id=2,name='lisi')}">静态参数2</a><br>
+
+<a th:href="@{'show2?id='+${id}+'&name='+${name}+''}">动态参数1</a>
+<a th:href="@{show2(id=${id},name=${name})}">动态参数2</a>
+
+<a th:href="@{/show3/{id}/{name}(id=${id},name=${name})}">RESTful</a>
+</body>
+</html>

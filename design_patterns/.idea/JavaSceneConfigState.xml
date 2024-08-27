@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SmartInputSourceJavaSceneConfigState">
+    <option name="customChineseScenes" value="{&quot;capsLockState&quot;:false,&quot;code&quot;:&quot;;Star(name);Company(name);Fans(name);RuntimeException(message);setName(name);setFrame(frame);Phone(cpu);FastFood(desc);Garnish(desc);play(fileName);say(message);MenuItem(name,level);Menu(name);println(x);display(color);setFood(food);leaveRequest(name,reason)&quot;,&quot;enable&quot;:true,&quot;languageType&quot;:&quot;CHINESE&quot;,&quot;name&quot;:&quot;自定义中文切换&quot;,&quot;tip&quot;:&quot;&quot;}" />
+  </component>
+</project>

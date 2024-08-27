@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.itbaizhan.mapper2.ClassesMapper2">
+
+    <resultMap id="MyClassesMapper" type="com.itbaizhan.pojo.Classes">
+        <id property="cid" column="cid"/>
+        <result column="className" property="className"/>
+        <collection property="studentList" ofType="com.itbaizhan.pojo.Student"
+                    select="com.itbaizhan.mapper2.StudentMapper2.findAllStudentByClassId" column="cid">
+
+        </collection>
+        <collection property="teacherList" ofType="com.itbaizhan.pojo.Teacher"
+                    select="com.itbaizhan.mapper2.TeacherMapper2.findAllTeacherByClassesId" column="cid">
+
+        </collection>
+    </resultMap>
+<select id="findAllClasses" resultMap="MyClassesMapper">
+    select * from classes
+</select>
+
+    <select id="findAllClassesByStudentId" resultType="com.itbaizhan.pojo.Classes" parameterType="int">
+        select * from classes where cid = #{cid}
+    </select>
+    
+
+</mapper>

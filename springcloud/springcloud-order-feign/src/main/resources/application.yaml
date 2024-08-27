@@ -1,0 +1,45 @@
+spring:
+  application:
+    # 应用名字
+    name: order-service-feign
+  cloud:
+    openfeign:
+      # 开启Apache HttpClient5 提高性能
+      httpclient:
+        hc5:
+          enabled: true
+      # 配置超时时间
+      client:
+        config:
+          default:
+            # 连接超时时间
+            connectTimeout: 3000
+            # 请求处理超时时间
+            readTimeout: 3000
+      # 配置openfeign压缩
+      compression:
+        request:
+          # 开启请求压缩
+          enabled: true
+          # 触发压缩的数据类型
+          mime-types: text/html,application/xml,application/json
+          # 压缩数据最小值
+          min-request-size: 2048
+        response:
+          # 开启响应压缩
+          enabled: true
+
+    consul:
+      # consul IP地址
+      host: 192.168.66.200
+      port: 8500
+      discovery:
+        # 注册到Consul名字
+        service-name: ${spring.application.name}
+        # 表示注册时使用ip地址不是hostname
+        prefer-ip-address: true
+server:
+  port: 80
+logging:
+  level:
+    com.tyut.feign: debug

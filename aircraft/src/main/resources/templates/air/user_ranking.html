@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <title>首页</title>
+    <!--引入公共CSS文件-->
+    <th:block th:replace="~{/air/common_resources::common_css}"></th:block>
+</head>
+
+<body class="hold-transition skin-purple sidebar-mini">
+<div class="wrapper">
+    <!-- 页面头部 -->
+    <header th:replace="~{/air/common_header::header}"></header>
+    <!-- 页面头部 /-->
+
+    <!-- 导航侧栏 -->
+    <aside th:replace="~{/air/common_aside::aside}"></aside>
+    <!-- 导航侧栏 /-->
+
+    <!-- 内容区域 -->
+    <div class="content-wrapper">
+
+        <!-- 内容头部 -->
+        <section class="content-header">
+            <h1>
+                控制面板
+                <small>排行榜</small>
+            </h1>
+            <ol class="breadcrumb">
+                <li><a href="/air/index"><i class="fa fa-dashboard"></i> 首页</a></li>
+            </ol>
+        </section>
+        <!-- 内容头部 /-->
+
+        <!-- 正文区域 -->
+        <section class="content">
+
+            <!--            &lt;!&ndash; Bar chart &ndash;&gt;-->
+            <!--            <div class="box box-primary">-->
+            <!--                <div class="box-header with-border">-->
+            <!--                    <i class="fa fa-bar-chart-o"></i>-->
+
+            <!--                    <h3 class="box-title">Ranking Chart</h3>-->
+
+            <!--                    <div class="box-tools pull-right">-->
+            <!--                        <button type="button" class="btn btn-box-tool" data-widget="collapse"><i-->
+            <!--                                class="fa fa-minus"></i>-->
+            <!--                        </button>-->
+            <!--                        <button type="button" class="btn btn-box-tool" data-widget="remove"><i-->
+            <!--                                class="fa fa-times"></i></button>-->
+            <!--                    </div>-->
+            <!--                </div>-->
+            <!--                <div class="box-body">-->
+            <!--                    <div id="bar-chart" style="height: 700px;"></div>-->
+            <!--                </div>-->
+            <!--                &lt;!&ndash; /.box-body&ndash;&gt;-->
+            <!--            </div>-->
+            <!--            &lt;!&ndash; /.box &ndash;&gt;-->
+
+            <div class="row">
+                <div class="col-md-6">
+                    <!-- Bar chart -->
+                    <div class="box box-primary">
+                        <div class="box-header with-border">
+                            <i class="fa fa-bar-chart-o" style="color: greenyellow"></i>
+
+                            <h3 class="box-title">Ranking Chart</h3><b style="color: greenyellow">  游戏难度：入门</b>
+
+                            <div class="box-tools pull-right">
+                                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i
+                                        class="fa fa-minus"></i>
+                                </button>
+                                <button type="button" class="btn btn-box-tool" data-widget="remove"><i
+                                        class="fa fa-times"></i></button>
+                            </div>
+                        </div>
+                        <div class="box-body">
+                            <div id="bar-chart-1" style="height: 300px;"></div>
+                        </div>
+                        <!-- /.box-body-->
+                    </div>
+                    <!-- /.box -->
+
+                    <!-- Bar chart -->
+                    <div class="box box-primary">
+                        <div class="box-header with-border">
+                            <i class="fa fa-bar-chart-o" style="color: #bf800c"></i>
+
+                            <h3 class="box-title">Ranking Chart</h3><b style="color: #bf800c">  游戏难度：中等</b>
+
+                            <div class="box-tools pull-right">
+                                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i
+                                        class="fa fa-minus"></i>
+                                </button>
+                                <button type="button" class="btn btn-box-tool" data-widget="remove"><i
+                                        class="fa fa-times"></i></button>
+                            </div>
+                        </div>
+                        <div class="box-body">
+                            <div id="bar-chart-3" style="height: 300px;"></div>
+                        </div>
+                        <!-- /.box-body-->
+                    </div>
+                    <!-- /.box -->
+                    <!-- Bar chart -->
+                    <div class="box box-primary">
+                        <div class="box-header with-border">
+                            <i class="fa fa-bar-chart-o"></i>
+
+                            <h3 class="box-title">Ranking Chart</h3><b style="color: crimson">  游戏难度：地狱</b>
+
+                            <div class="box-tools pull-right">
+                                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i
+                                        class="fa fa-minus"></i>
+                                </button>
+                                <button type="button" class="btn btn-box-tool" data-widget="remove"><i
+                                        class="fa fa-times"></i></button>
+                            </div>
+                        </div>
+                        <div class="box-body">
+                            <div id="bar-chart-5" style="height: 300px;"></div>
+                        </div>
+                        <!-- /.box-body-->
+                    </div>
+                </div>
+                <!-- /.col -->
+
+                <div class="col-md-6">
+                    <!-- Bar chart -->
+                    <div class="box box-primary">
+                        <div class="box-header with-border">
+                            <i class="fa fa-bar-chart-o" style="color:  #00e765"></i>
+
+                            <h3 class="box-title">Ranking Chart</h3><b style="color:  #00e765">  游戏难度：简单</b>
+
+                            <div class="box-tools pull-right">
+                                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i
+                                        class="fa fa-minus"></i>
+                                </button>
+                                <button type="button" class="btn btn-box-tool" data-widget="remove"><i
+                                        class="fa fa-times"></i></button>
+                            </div>
+                        </div>
+                        <div class="box-body">
+                            <div id="bar-chart-2" style="height: 300px;"></div>
+                        </div>
+                        <!-- /.box-body-->
+                    </div>
+                    <!-- /.box -->
+
+                    <!-- Bar chart -->
+                    <div class="box box-primary">
+                        <div class="box-header with-border">
+                            <i class="fa fa-bar-chart-o" style="color: #c23321"></i>
+
+                            <h3 class="box-title">Ranking Chart</h3><b style="color: #c23321">  游戏难度：困难</b>
+
+                            <div class="box-tools pull-right">
+                                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i
+                                        class="fa fa-minus"></i>
+                                </button>
+                                <button type="button" class="btn btn-box-tool" data-widget="remove"><i
+                                        class="fa fa-times"></i></button>
+                            </div>
+                        </div>
+                        <div class="box-body">
+                            <div id="bar-chart-4" style="height: 300px;"></div>
+                        </div>
+                        <!-- /.box-body-->
+                    </div>
+                    <!-- /.box -->
+                    <!-- Bar chart -->
+                    <div class="box box-primary">
+                        <div class="box-header with-border">
+                            <i class="fa fa-bar-chart-o" style="color: red"></i>
+
+                            <h3 class="box-title">Ranking Chart</h3><b style="color: red">  游戏难度：炼狱</b>
+
+                            <div class="box-tools pull-right">
+                                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i
+                                        class="fa fa-minus"></i>
+                                </button>
+                                <button type="button" class="btn btn-box-tool" data-widget="remove"><i
+                                        class="fa fa-times"></i></button>
+                            </div>
+                        </div>
+                        <div class="box-body">
+                            <div id="bar-chart-6" style="height: 300px;"></div>
+                        </div>
+                        <!-- /.box-body-->
+                    </div>
+                    <!-- /.box -->
+
+
+                    <!-- /.box -->
+                </div>
+                <!-- /.col -->
+            </div>
+            <!-- /.row -->
+
+
+        </section>
+        <!-- 正文区域 /-->
+
+    </div>
+    <!-- 内容区域 /-->
+
+    <!-- 底部导航 -->
+    <footer th:replace="~{/air/common_footer::footer}"></footer>
+    <!-- 底部导航 /-->
+</div>
+<!--引入公共js文件-->
+<th:block th:replace="~{/air/common_resources::common_js}"></th:block>
+</body>
+<script th:inline="javascript">
+
+    /* 入门 */
+    var collection = [[${ranking_rm}]];
+    console.log(collection)
+    var bar_data = {
+        data: [],
+        color: "#adff2f"
+    };
+    for (var item of collection) {
+        var key = Object.keys(item)[0];  // 获取 Map 中的键
+        var value = item[key];  // 获取对应的值
+        bar_data.data.push([key, value]);
+    }
+    $.plot("#bar-chart-1", [bar_data], {
+        grid: {
+            borderWidth: 1,
+            borderColor: "#f3f3f3",
+            tickColor: "#f3f3f3"
+        },
+        series: {
+            bars: {
+                show: true,
+                barWidth: 0.5,
+                align: "center"
+            }
+        },
+        xaxis: {
+            mode: "categories",
+            tickLength: 0
+        }
+    });
+    /* 入门 */
+
+    /* 简单 */
+    var collection = [[${ranking_jd}]];
+    console.log(collection)
+    var bar_data = {
+        data: [],
+        color: "#00e765"
+    };
+    for (var item of collection) {
+        var key = Object.keys(item)[0];  // 获取 Map 中的键
+        var value = item[key];  // 获取对应的值
+        bar_data.data.push([key, value]);
+    }
+    $.plot("#bar-chart-2", [bar_data], {
+        grid: {
+            borderWidth: 1,
+            borderColor: "#f3f3f3",
+            tickColor: "#f3f3f3"
+        },
+        series: {
+            bars: {
+                show: true,
+                barWidth: 0.5,
+                align: "center"
+            }
+        },
+        xaxis: {
+            mode: "categories",
+            tickLength: 0
+        }
+    });
+    /* 简单 */
+
+    /* 中等 */
+    var collection = [[${ranking_zd}]];
+    console.log(collection)
+    var bar_data = {
+        data: [],
+        color: "#bf800c"
+    };
+    for (var item of collection) {
+        var key = Object.keys(item)[0];  // 获取 Map 中的键
+        var value = item[key];  // 获取对应的值
+        bar_data.data.push([key, value]);
+    }
+    $.plot("#bar-chart-3", [bar_data], {
+        grid: {
+            borderWidth: 1,
+            borderColor: "#f3f3f3",
+            tickColor: "#f3f3f3"
+        },
+        series: {
+            bars: {
+                show: true,
+                barWidth: 0.5,
+                align: "center"
+            }
+        },
+        xaxis: {
+            mode: "categories",
+            tickLength: 0
+        }
+    });
+    /* 中等 */
+
+    /* 困难 */
+    var collection = [[${ranking_kn}]];
+    console.log(collection)
+    var bar_data = {
+        data: [],
+        color: "#c23321"
+    };
+    for (var item of collection) {
+        var key = Object.keys(item)[0];  // 获取 Map 中的键
+        var value = item[key];  // 获取对应的值
+        bar_data.data.push([key, value]);
+    }
+    $.plot("#bar-chart-4", [bar_data], {
+        grid: {
+            borderWidth: 1,
+            borderColor: "#f3f3f3",
+            tickColor: "#f3f3f3"
+        },
+        series: {
+            bars: {
+                show: true,
+                barWidth: 0.5,
+                align: "center"
+            }
+        },
+        xaxis: {
+            mode: "categories",
+            tickLength: 0
+        }
+    });
+    /* 困难 */
+
+    /* 地狱 */
+    var collection = [[${ranking_dy}]];
+    console.log(collection)
+    var bar_data = {
+        data: [],
+        color: "#dc143c"
+    };
+    for (var item of collection) {
+        var key = Object.keys(item)[0];  // 获取 Map 中的键
+        var value = item[key];  // 获取对应的值
+        bar_data.data.push([key, value]);
+    }
+    $.plot("#bar-chart-5", [bar_data], {
+        grid: {
+            borderWidth: 1,
+            borderColor: "#f3f3f3",
+            tickColor: "#f3f3f3"
+        },
+        series: {
+            bars: {
+                show: true,
+                barWidth: 0.5,
+                align: "center"
+            }
+        },
+        xaxis: {
+            mode: "categories",
+            tickLength: 0
+        }
+    });
+    /* 地狱 */
+
+    /* 炼狱 */
+    var collection = [[${ranking_ly}]];
+    console.log(collection)
+    var bar_data = {
+        data: [],
+        color: "#ff0000"
+    };
+    for (var item of collection) {
+        var key = Object.keys(item)[0];  // 获取 Map 中的键
+        var value = item[key];  // 获取对应的值
+        bar_data.data.push([key, value]);
+    }
+    $.plot("#bar-chart-6", [bar_data], {
+        grid: {
+            borderWidth: 1,
+            borderColor: "#f3f3f3",
+            tickColor: "#f3f3f3"
+        },
+        series: {
+            bars: {
+                show: true,
+                barWidth: 0.5,
+                align: "center"
+            }
+        },
+        xaxis: {
+            mode: "categories",
+            tickLength: 0
+        }
+    });
+    /* 炼狱 */
+
+</script>
+</html>
