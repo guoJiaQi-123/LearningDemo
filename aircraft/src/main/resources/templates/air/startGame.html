@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <title>首页</title>
+    <!--引入公共CSS文件-->
+    <th:block th:replace="~{/air/common_resources::common_css}"></th:block>
+</head>
+
+<body class="hold-transition skin-purple sidebar-mini">
+<div class="wrapper">
+    <!-- 页面头部 -->
+    <header th:replace="~{/air/common_header::header}"></header>
+    <!-- 页面头部 /-->
+
+    <!-- 导航侧栏 -->
+    <aside th:replace="~{/air/common_aside::aside}"></aside>
+    <!-- 导航侧栏 /-->
+
+    <!-- 内容区域 -->
+    <div class="content-wrapper">
+
+        <!-- 内容头部 -->
+        <section class="content-header">
+            <h1>
+                控制面板
+                <small>开始游戏</small>
+            </h1>
+            <ol class="breadcrumb">
+                <li><a href="/air/index"><i class="fa fa-dashboard"></i> 首页</a></li>
+            </ol>
+        </section>
+        <!-- 内容头部 /-->
+
+        <!-- 正文区域 -->
+        <section class="content">
+
+
+            <!-- /.box-header -->
+            <div class="box-body">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <form action="/aircraft/startGame" method="post">
+                                <button type="submit" class="btn btn-block btn-success btn-lg">开始游戏</button>
+                                <label>游戏难度选择</label>
+                                <select class="form-control select2" style="width: 100%;" name="diff">
+                                    <option selected="selected">入门</option>
+                                    <option>简单</option>
+                                    <option>中等</option>
+                                    <option>困难</option>
+                                    <option>地狱</option>
+                                    <option>炼狱</option>
+                                </select>
+                            </form>
+
+                        </div>
+                        <!-- /.form-group -->
+                    </div>
+                    <!-- /.col -->
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.box-body -->
+            <div class="box-footer" style="width: 50%">
+                <b> <span style="color: greenyellow">入门</span> =>
+                    <span style="color: #00e765">简单</span> =>
+                    <span style="color: #bf800c">中等</span> =>
+                    <span style="color: #c23321">困难</span> =>
+                    <span style="color: crimson">地狱</span> =>
+                    <span style="color: red">炼狱</span> 难度依次递增</b>
+            </div>
+            <!-- /.box -->
+        </section>
+        <!-- 正文区域 /-->
+
+    </div>
+    <!-- 内容区域 /-->
+
+    <!-- 底部导航 -->
+    <footer th:replace="~{/air/common_footer::footer}"></footer>
+    <!-- 底部导航 /-->
+</div>
+<!--引入公共js文件-->
+<th:block th:replace="~{/air/common_resources::common_js}"></th:block>
+</body>
+<script>
+
+</script>
+
+</html>

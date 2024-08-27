@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: itbaizhan-springboot-rocketmq
+
+
+rocketmq:
+  # name-server 地址
+  name-server: 192.168.66.128:9876
+  producer:
+    # 生产者组
+    group: springbootProducer
+    # 发送消息超时时间
+    send-message-timeout: 300000
+
+demo:
+  rocketmq:
+    topic: springbootTopic
+    consumer:
+      group: springbootConsumer

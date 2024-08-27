@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+        <bean id="userDao" class="com.itbaizhan.dao.UserDaoImpl"/>
+        <bean id="userService" class="com.itbaizhan.service.UserService">
+                <!--注入对象类型1.-->
+                <!--<property name="userDao" ref="userDao"/>-->
+                <!--注入对象类型2.-->
+                <property name="userDao">
+                        <ref bean="userDao"/>
+                </property>
+
+                <!--注入基本数据类型-->
+                <property name="count" value="10"></property>
+                <!--注入字符串类型-->
+                <property name="name">
+                        <value>百战</value>
+                </property>
+
+                <!--注入普通类型的List集合-->
+                <property name="names">
+                        <list>
+                                <value>百战</value>
+                                <value>尚学堂</value>
+                        </list>
+                </property>
+
+                <!--注入对象类型的List集合-->
+                <property name="users1">
+                        <list>
+                                <bean class="com.itbaizhan.domin.User">
+                                        <property name="name" value="郭家旗"></property>
+                                        <property name="id" value="1"></property>
+                                        <property name="address" value="太原"></property>
+                                </bean>
+                                <bean class="com.itbaizhan.domin.User">
+                                        <property name="name" value="苏红润"></property>
+                                        <property name="id" value="2"></property>
+                                        <property name="address" value="上海"></property>
+                                </bean>
+                        </list>
+                </property>
+                <!--注入对象类型的set集合-->
+                <property name="users2">
+                        <list>
+                                <bean class="com.itbaizhan.domin.User">
+                                        <property name="name" value="郭家旗"></property>
+                                        <property name="id" value="1"></property>
+                                        <property name="address" value="太原"></property>
+                                </bean>
+                                <bean class="com.itbaizhan.domin.User">
+                                        <property name="name" value="苏红润"></property>
+                                        <property name="id" value="2"></property>
+                                        <property name="address" value="上海"></property>
+                                </bean>
+                        </list>
+                </property>
+
+                <!--注入普通数据类型的Map集合-->
+                <property name="names2">
+                        <map>
+                                <entry key="1" value="尚学堂"></entry>
+                                <entry key="2" value="百战"></entry>
+                        </map>
+                </property>
+                <!--注入对象数据类型的Map集合-->
+                <property name="users3">
+                        <map>
+                                <entry key="user1" value-ref="user1"></entry>
+                                <entry key="user2" value-ref="user2"></entry>
+                        </map>
+                </property>
+
+                <property name="properties">
+                        <props>
+                                <prop key="配置1">值1</prop>
+                                <prop key="配置2">值2</prop>
+                        </props>
+                </property>
+        </bean>
+
+        <bean id="user1" class="com.itbaizhan.domin.User">
+                <property name="id" value="1"></property>
+                <property name="name" value="郭家旗"></property>
+                <property name="address" value="上海"></property>
+        </bean>
+        <bean id="user2" class="com.itbaizhan.domin.User">
+                <property name="id" value="2"></property>
+                <property name="name" value="郭家旗"></property>
+                <property name="address" value="北京"></property>
+        </bean>
+
+
+</beans>

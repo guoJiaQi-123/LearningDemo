@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+     http://www.springframework.org/schema/beans/spring-beans.xsd
+     http://www.springframework.org/schema/context
+     http://www.springframework.org/schema/context/spring-context.xsd
+     http://www.springframework.org/schema/aop
+     http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <!--扫描包-->
+    <context:component-scan base-package="com.itbaizhan"/>
+
+    <!--配置通知对象-->
+    <bean name="springAop" class="com.itbaizhan.advice.SpringAop"/>
+
+    <!--配置代理对象-->
+    <bean name="userDaoProxy" class="org.springframework.aop.framework.ProxyFactoryBean">
+        <!--配置目标对象-->
+        <property name="target" ref="userDao"></property>
+
+        <!--配置通知-->
+        <property name="interceptorNames">
+            <list>
+                <value>springAop</value>
+            </list>
+        </property>
+        <!-- 代理对象的生成方式  true：使用CGLib false：使用原生JDK生成-->
+        <property name="proxyTargetClass" value="true"></property>
+    </bean>
+</beans>

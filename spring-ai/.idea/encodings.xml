@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/spring-ai-01-chat/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-ai-02-image/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-ai-03-transcription/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-ai-04-tts/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-ai-05-multimodel/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-ai-05-ollama/src/main/java" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

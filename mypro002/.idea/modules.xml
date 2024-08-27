@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Common_Classes/Common_Classes.iml" filepath="$PROJECT_DIR$/Common_Classes/Common_Classes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exception/Exception.iml" filepath="$PROJECT_DIR$/Exception/Exception.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IOstream/IOstream.iml" filepath="$PROJECT_DIR$/IOstream/IOstream.iml" />
+      <module fileurl="file://$PROJECT_DIR$/array/array.iml" filepath="$PROJECT_DIR$/array/array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/container/container.iml" filepath="$PROJECT_DIR$/container/container.iml" />
+      <module fileurl="file://$PROJECT_DIR$/homeWork/homeWork.iml" filepath="$PROJECT_DIR$/homeWork/homeWork.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaReflection/javaReflection.iml" filepath="$PROJECT_DIR$/javaReflection/javaReflection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lambdaDemo/lambdaDemo.iml" filepath="$PROJECT_DIR$/lambdaDemo/lambdaDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myGenerics/myGenerics.iml" filepath="$PROJECT_DIR$/myGenerics/myGenerics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mypro002.iml" filepath="$PROJECT_DIR$/mypro002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oop/oop.iml" filepath="$PROJECT_DIR$/oop/oop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/socketdemo/socketdemo.iml" filepath="$PROJECT_DIR$/socketdemo/socketdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/threaddemo/threaddemo.iml" filepath="$PROJECT_DIR$/threaddemo/threaddemo.iml" />
+    </modules>
+  </component>
+</project>

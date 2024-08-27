@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="SpringBootMyBatis" />
+        <module name="SpringBootDemo1" />
+        <module name="SpringBootAdmin" />
+        <module name="springbootdemo5" />
+        <module name="springbootdemo4" />
+        <module name="SpringBootDemo3" />
+        <module name="SpringBootDemo2" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="SpringBootDemo4" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="SpringBootAdmin" options="-parameters" />
+      <module name="SpringBootDemo1" options="-parameters" />
+      <module name="SpringBootDemo2" options="-parameters" />
+      <module name="SpringBootDemo3" options="-parameters" />
+      <module name="SpringBootDemo4" options="-parameters" />
+      <module name="SpringBootMyBatis" options="-parameters" />
+      <module name="springbootdemo4" options="-parameters" />
+    </option>
+  </component>
+</project>

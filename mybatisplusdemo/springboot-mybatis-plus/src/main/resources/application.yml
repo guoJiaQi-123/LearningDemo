@@ -1,0 +1,24 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql:///school?serverTimezone=UTC
+    username: root
+    password: root
+mybatis-plus:
+  configuration:
+    # 配置打印日志
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  global-config:
+    db-config:
+      #配置表名前缀
+      table-prefix: tb_
+      #配置主键类型
+      id-type: auto
+      #配置驼峰转下划线:默认开启
+      table-underline: true
+      #配置逻辑删除全局字段名
+      logic-delete-field: deleted
+      # 逻辑已删除值(默认为 1)
+      logic-delete-value: 1
+      # 逻辑未删除值（默认为 0）
+      logic-not-delete-value: 0

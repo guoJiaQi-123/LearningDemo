@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tyut.aircraft.mapper.GameMapper">
+
+    <select id="selectRanking" parameterType="string" resultType="com.tyut.aircraft.pojo.domain.Game">
+        select *
+        from game where game.difficulty = #{diff}
+        order by persistTime desc
+    </select>
+
+
+</mapper>

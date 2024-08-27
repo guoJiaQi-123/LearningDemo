@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="50d5614d-09f1-4b90-a477-232054d40ceb" name="更改" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="customMavenHome" value="D:/Program Files/Lenovo/apache-maven-3.8.3" />
+        <option name="localRepository" value="E:\repository" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+        <option name="userSettingsFile" value="D:\Program Files\Lenovo\apache-maven-3.8.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2dR0ZrdQCMsuF3Ns3V21rvD1p0A" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="openDirectoriesWithSingleClick" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showScratchesAndConsoles" value="false" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Program Files (x86)/GoogleDownLoads/Atom_Material_Icons-95.0.0.zip&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
+    &quot;应用程序.E02removeDuplicates.executor&quot;: &quot;Debug&quot;,
+    &quot;应用程序.E03InsertionSort.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.E03evalRPN.executor&quot;: &quot;Debug&quot;,
+    &quot;应用程序.E03isHappy.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.E04ShellSort.executor&quot;: &quot;Debug&quot;,
+    &quot;应用程序.E04maxSlidingWindow.executor&quot;: &quot;Debug&quot;,
+    &quot;应用程序.E04removeElement.executor&quot;: &quot;Debug&quot;,
+    &quot;应用程序.E05sortedSquares.executor&quot;: &quot;Debug&quot;,
+    &quot;应用程序.E07lengthOfLongestSubstring.executor&quot;: &quot;Debug&quot;,
+    &quot;应用程序.E08fourSum.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.E09minSubArrayLen.executor&quot;: &quot;Debug&quot;,
+    &quot;应用程序.E10minWindow.executor&quot;: &quot;Debug&quot;,
+    &quot;应用程序.E32lowestCommonAncestor.executor&quot;: &quot;Debug&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.feishu._06binarttree" />
+      <recent name="com.feishu._02list" />
+      <recent name="com.algorithm.sort" />
+    </key>
+  </component>
+  <component name="RunManager" selected="应用程序.E02removeDuplicates">
+    <configuration name="E02removeDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.feishu._05stackandqueue.E02removeDuplicates" />
+      <module name="programmercarlOne" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.feishu._05stackandqueue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="E03InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algorithm.sort.E03InsertionSort" />
+      <module name="programmercarlOne" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.algorithm.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="E04ShellSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algorithm.sort.E04ShellSort" />
+      <module name="programmercarlOne" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.algorithm.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="E07lengthOfLongestSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.feishu._04str.E07lengthOfLongestSubstring" />
+      <module name="programmercarlOne" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.feishu._04str.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="E08fourSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.feishu._03hashtable.E08fourSum" />
+      <module name="programmercarlOne" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.feishu._03hashtable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="应用程序.E02removeDuplicates" />
+        <item itemvalue="应用程序.E07lengthOfLongestSubstring" />
+        <item itemvalue="应用程序.E04ShellSort" />
+        <item itemvalue="应用程序.E03InsertionSort" />
+        <item itemvalue="应用程序.E08fourSum" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="50d5614d-09f1-4b90-a477-232054d40ceb" name="更改" comment="" />
+      <created>1699928824701</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1699928824701</updated>
+      <workItem from="1709955645029" duration="7519000" />
+      <workItem from="1710074233902" duration="2748000" />
+      <workItem from="1710077202175" duration="1547000" />
+      <workItem from="1710160729738" duration="3194000" />
+      <workItem from="1710241312950" duration="10758000" />
+      <workItem from="1710335387496" duration="2739000" />
+      <workItem from="1710374351332" duration="7696000" />
+      <workItem from="1710420599452" duration="4247000" />
+      <workItem from="1710508020305" duration="2606000" />
+      <workItem from="1710510753084" duration="327000" />
+      <workItem from="1710681692646" duration="1979000" />
+      <workItem from="1710769390348" duration="1105000" />
+      <workItem from="1710842742929" duration="1547000" />
+      <workItem from="1710854528527" duration="2456000" />
+      <workItem from="1710940745579" duration="1792000" />
+      <workItem from="1710942907080" duration="145000" />
+      <workItem from="1711026442397" duration="1692000" />
+      <workItem from="1711076719704" duration="2968000" />
+      <workItem from="1711352958548" duration="6562000" />
+      <workItem from="1711367508778" duration="69000" />
+      <workItem from="1711439478892" duration="312000" />
+      <workItem from="1711451844721" duration="3216000" />
+      <workItem from="1711545015844" duration="2757000" />
+      <workItem from="1711594156301" duration="1183000" />
+      <workItem from="1711695249781" duration="6604000" />
+      <workItem from="1711715688091" duration="3607000" />
+      <workItem from="1711890304253" duration="2721000" />
+      <workItem from="1711977952156" duration="2071000" />
+      <workItem from="1712400492793" duration="8144000" />
+      <workItem from="1712409533749" duration="2386000" />
+      <workItem from="1712482266435" duration="445000" />
+      <workItem from="1712494326709" duration="4108000" />
+      <workItem from="1712581345890" duration="3254000" />
+      <workItem from="1712630735348" duration="4442000" />
+      <workItem from="1712667832266" duration="377000" />
+      <workItem from="1712742262202" duration="67000" />
+      <workItem from="1713013098473" duration="77000" />
+      <workItem from="1713013201887" duration="1620000" />
+      <workItem from="1713016127558" duration="105000" />
+      <workItem from="1713016247861" duration="171000" />
+      <workItem from="1713016430421" duration="350000" />
+      <workItem from="1713098899026" duration="4368000" />
+      <workItem from="1713185269489" duration="1740000" />
+      <workItem from="1713359619806" duration="2459000" />
+      <workItem from="1713446965169" duration="1687000" />
+      <workItem from="1713616417383" duration="2844000" />
+      <workItem from="1713704790320" duration="1295000" />
+      <workItem from="1713859836913" duration="2905000" />
+      <workItem from="1713942424109" duration="912000" />
+      <workItem from="1714564783817" duration="7654000" />
+      <workItem from="1714651024842" duration="7386000" />
+      <workItem from="1714739503451" duration="6887000" />
+      <workItem from="1714829626993" duration="3670000" />
+      <workItem from="1714835454560" duration="624000" />
+      <workItem from="1714918079947" duration="502000" />
+      <workItem from="1714951730311" duration="6775000" />
+      <workItem from="1715006436942" duration="2597000" />
+      <workItem from="1715171002215" duration="2328000" />
+      <workItem from="1715269267827" duration="1378000" />
+      <workItem from="1715352057563" duration="1195000" />
+      <workItem from="1715532197579" duration="303000" />
+      <workItem from="1715692690144" duration="5645000" />
+      <workItem from="1715862563892" duration="4728000" />
+      <workItem from="1717511692381" duration="955000" />
+      <workItem from="1717581007724" duration="613000" />
+      <workItem from="1717596020606" duration="3084000" />
+      <workItem from="1717682784563" duration="2268000" />
+      <workItem from="1718027835646" duration="32000" />
+      <workItem from="1718107577587" duration="2312000" />
+      <workItem from="1718115169059" duration="406000" />
+      <workItem from="1718115638384" duration="16000" />
+      <workItem from="1718115669635" duration="13000" />
+      <workItem from="1718115856800" duration="81000" />
+      <workItem from="1718115961563" duration="116000" />
+      <workItem from="1718116094215" duration="31000" />
+      <workItem from="1718116161418" duration="1189000" />
+      <workItem from="1718150367742" duration="1439000" />
+      <workItem from="1718284185256" duration="1144000" />
+      <workItem from="1718368853259" duration="4771000" />
+      <workItem from="1719063707157" duration="4382000" />
+      <workItem from="1719146190578" duration="7432000" />
+      <workItem from="1719317394915" duration="4821000" />
+      <workItem from="1719359180477" duration="1852000" />
+      <workItem from="1719495919946" duration="3357000" />
+      <workItem from="1720272046432" duration="5385000" />
+      <workItem from="1720689620207" duration="1329000" />
+      <workItem from="1720857391757" duration="8243000" />
+      <workItem from="1720977421568" duration="5646000" />
+      <workItem from="1721054630080" duration="5353000" />
+      <workItem from="1721063718205" duration="196000" />
+      <workItem from="1721783301739" duration="8047000" />
+      <workItem from="1721830035003" duration="4931000" />
+      <workItem from="1721922479122" duration="3476000" />
+      <workItem from="1722035837510" duration="8923000" />
+      <workItem from="1722514767674" duration="6332000" />
+      <workItem from="1722602391069" duration="8107000" />
+      <workItem from="1722612400392" duration="205000" />
+      <workItem from="1722695997176" duration="1098000" />
+      <workItem from="1722846487352" duration="3700000" />
+      <workItem from="1722952942340" duration="1558000" />
+      <workItem from="1723022908114" duration="1475000" />
+      <workItem from="1723038771079" duration="6392000" />
+      <workItem from="1723085622629" duration="2775000" />
+      <workItem from="1723163620800" duration="7568000" />
+      <workItem from="1723210936777" duration="5428000" />
+      <workItem from="1723272563586" duration="4194000" />
+      <workItem from="1723469849815" duration="4927000" />
+      <workItem from="1723539033378" duration="1323000" />
+      <workItem from="1723640143182" duration="5934000" />
+      <workItem from="1723731846903" duration="3757000" />
+      <workItem from="1723879603380" duration="8422000" />
+      <workItem from="1723962760338" duration="5953000" />
+      <workItem from="1724157494911" duration="5453000" />
+      <workItem from="1724248280308" duration="5287000" />
+      <workItem from="1724338798210" duration="2501000" />
+      <workItem from="1724586812805" duration="3332000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/tyut/_06stackandqueue/E05evalRPN.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/programmercarlOne$E03InsertionSort.ic" NAME="E03InsertionSort 覆盖结果" MODIFIED="1712495271631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.algorithm.sort.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/programmercarlOne$E04ShellSort.ic" NAME="E04ShellSort 覆盖结果" MODIFIED="1712496889979" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.algorithm.sort.*</FILTER>
+    </SUITE>
+  </component>
+</project>

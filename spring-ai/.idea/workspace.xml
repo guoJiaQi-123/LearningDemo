@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="59ec046d-d9e3-4f7f-857f-e28b19d47d9f" name="更改" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="customMavenHome" value="D:/Program Files/Lenovo/apache-maven-3.8.3" />
+        <option name="localRepository" value="E:\repository" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+        <option name="userSettingsFile" value="D:\Program Files\Lenovo\apache-maven-3.8.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2fsEcp4YOUMuFlTeECcg1k5QsQ4" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="openDirectoriesWithSingleClick" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showScratchesAndConsoles" value="false" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.ImageApplication.executor": "Run",
+    "Spring Boot.MultiModelApplication.executor": "Run",
+    "Spring Boot.SpringAi01ChatApplication.executor": "Debug",
+    "Spring Boot.SpringAi02ImageApplication.executor": "Run",
+    "Spring Boot.SpringAi03TranscriptionApplication.executor": "Run",
+    "Spring Boot.SpringAi05OllamaApplication.executor": "Debug",
+    "Spring Boot.TtsApplication.executor": "Run",
+    "jdk.selected.JAVA_MODULE": "corretto-17",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/HX/IdeaProjects/spring-ai/spring-ai-05-ollama/src/main/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "cn.yiiguxing.plugin.translate",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\HX\IdeaProjects\spring-ai\spring-ai-05-ollama\src\main\resources" />
+      <recent name="C:\Users\HX\IdeaProjects\spring-ai\spring-ai-05-multimodel\src\main\resources" />
+      <recent name="C:\Users\HX\IdeaProjects\spring-ai\spring-ai-04-tts\src\main\java\com\tyut\springai04tts" />
+      <recent name="C:\Users\HX\IdeaProjects\spring-ai\spring-ai-04-tts\src\main\resources" />
+      <recent name="C:\Users\HX\IdeaProjects\spring-ai\spring-ai-03-transcription\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SpringAi01ChatApplication">
+    <configuration name="ImageApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="spring-ai-02-image" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tyut.springai02image.ImageApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MultiModelApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="spring-ai-05-multimodel" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tyut.MultiModelApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringAi01ChatApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="spring-ai-01-chat" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tyut.springai01chat.SpringAi01ChatApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringAi05OllamaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="spring-ai-05-ollama" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.itbaizhan.SpringAi05OllamaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TranscriptionApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="spring-ai-03-transcription" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tyut.TranscriptionApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TtsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="spring-ai-04-tts" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tyut.springai04tts.TtsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="59ec046d-d9e3-4f7f-857f-e28b19d47d9f" name="更改" comment="" />
+      <created>1699928824701</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1699928824701</updated>
+      <workItem from="1714581470884" duration="2110000" />
+      <workItem from="1714619017469" duration="2283000" />
+      <workItem from="1714624788197" duration="444000" />
+      <workItem from="1714663491759" duration="3842000" />
+      <workItem from="1714705113861" duration="1485000" />
+      <workItem from="1714706645972" duration="2342000" />
+      <workItem from="1714750231491" duration="7010000" />
+      <workItem from="1714907170596" duration="1125000" />
+      <workItem from="1714916948717" duration="475000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://E:/repository/org/springframework/ai/spring-ai-openai/0.8.1/spring-ai-openai-0.8.1.jar!/org/springframework/ai/openai/OpenAiAudioTranscriptionOptions.class</url>
+          <line>40</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-ai-05-ollama/src/main/java/com/itbaizhan/controller/OllamaController.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-ai-05-ollama/src/main/java/com/itbaizhan/controller/OllamaController.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="        return &quot;redirect:http://localhost:32770&quot;;&#10;" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

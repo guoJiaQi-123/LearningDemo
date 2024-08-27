@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:shiro="http://www.pollix.at/thymeleaf/shiro">
+<head>
+    <meta charset="UTF-8">
+    <title>主页面</title>
+</head>
+<body>
+<h1>主页面</h1>
+<ul>
+    <li><a href="/user/getusername">获取用户信息</a></li>
+    <li><a href="/user/session">获取session数据</a></li>
+    <li><a href="/user/getSession">获取session域中的数据</a></li>
+    <li shiro:hasPermission="/reportform/find"><h3><a href="/reportform/find">查询报表</a></h3></li>
+    <li shiro:hasPermission="/salary/find"><h3><a href="/salary/find">查询工资</a></h3></li>
+    <li shiro:hasPermission="/stuff/find"><h3><a href="/stuff/find">查询员工</a></h3></li>
+</ul>
+
+
+
+</body>
+</html>

@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<students xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://www.itbaizhan.cn/xml student.xsd"
+          xmlns="http://www.itbaizhan.cn/xml">
+    <student number="baizhan_0001">
+        <name>百战</name>
+        <age>10</age>
+        <sex>male</sex>
+    </student>
+    <student number="baizhan_0002">
+        <name>尚学堂</name>
+        <age>10</age>
+        <sex>male</sex>
+    </student>
+</students>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--普通工厂创建对象-->
+    <!--<bean id="UserDaoFactory" class="com.itbaizhan.dao.UserDaoFactor"/>
+    <bean id="UserDao" factory-bean="UserDaoFactory" factory-method="getUserDao"/>-->
+
+    <!--静态工厂创建对象-->
+    <bean id="UserDao" class="com.itbaizhan.dao.UserDaoFactor2" factory-method="getUserDao"/>
+
+    <!--构造方法创建对象-->
+    <!--<bean id="UserDao" class="com.itbaizhan.dao.UserDaoImpl"/>-->
+    <bean id="UserService" class="com.itbaizhan.service.UserService"/>
+
+</beans>

@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6de8b7ef-236e-482e-b9f9-bee272454cdf" name="更改" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+        <option value="HTML File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="customMavenHome" value="D:/Program Files/Lenovo/apache-maven-3.8.3" />
+        <option name="localRepository" value="E:\repository" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+        <option name="userSettingsFile" value="D:\Program Files\Lenovo\apache-maven-3.8.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2fO7QtWrssAQaLHQBP0ou3OVfyh" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="openDirectoriesWithSingleClick" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showScratchesAndConsoles" value="false" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JUnit.BatchMessageTest.consumer.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BatchMessageTest.producer.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ConsumerModelTest.broadcast.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ConsumerModelTest.broadcast2.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ConsumerModelTest.consumer.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ConsumerModelTest.consumer2.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ConsumerModelTest.producer.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FilterMessageTest.consumer.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FilterMessageTest.producer.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.GlobalOrderMessageTest.consumer.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.GlobalOrderMessageTest.globalProducer.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.OneWayMessageTest.consumer.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.OneWayMessageTest.producer.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.OrderMessageTest.consumer.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.OrderMessageTest.producer.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ScheduleMessageTest.consumer.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ScheduleMessageTest.producer.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SimpleTest.consumer.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SimpleTest.producer.executor&quot;: &quot;Run&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.AuthApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.ItbaizhanSpringbootRocketmqApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.JavaAgentApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.OrderServiceApplication (1).executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.OrderServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.PaymentServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.SkyWalkingApplication.executor&quot;: &quot;Run&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-17&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Program Files (x86)/idea插件/Smart Input/lib/instrumented-Smart Input-6.0.4.jar&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;service.view.auto.scroll.to.source&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
+    &quot;应用程序.JWTUtils.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.JwtUtil.executor&quot;: &quot;Run&quot;
+  }
+}</component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SkyWalkingApplication">
+    <configuration name="ConsumerModelTest.broadcast" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="itbaizhan-rocketmq" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itbaizhan.consumermessage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itbaizhan.consumermessage" />
+      <option name="MAIN_CLASS_NAME" value="com.itbaizhan.consumermessage.ConsumerModelTest" />
+      <option name="METHOD_NAME" value="broadcast" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerModelTest.broadcast2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="itbaizhan-rocketmq" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itbaizhan.consumermessage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itbaizhan.consumermessage" />
+      <option name="MAIN_CLASS_NAME" value="com.itbaizhan.consumermessage.ConsumerModelTest" />
+      <option name="METHOD_NAME" value="broadcast2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerModelTest.producer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="itbaizhan-rocketmq" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itbaizhan.consumermessage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itbaizhan.consumermessage" />
+      <option name="MAIN_CLASS_NAME" value="com.itbaizhan.consumermessage.ConsumerModelTest" />
+      <option name="METHOD_NAME" value="producer" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JavaAgentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="itbaizhan-agent" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.itbaizhan.JavaAgentApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itbaizhan.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RocketmqApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="itbaizhan-springboot-rocketmq" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tyut.itbaizhanspringbootrocketmq.RocketmqApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SkyWalkingApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="itbaizhan-skywalking-order" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.itbaizhan.SkyWalkingApplication" />
+      <option name="VM_PARAMETERS" value="-javaagent:C:\Users\HX\IdeaProjects\itbaizhan-cloud\skywalking-agent\skywalking-agent.jar -DSW_AGENT_NAME=consumer-order -DSW_AGENT_COLLECTOR_BACKEND_SERVICES=192.168.66.128:11800" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itbaizhan.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.ConsumerModelTest.broadcast" />
+      <item itemvalue="JUnit.ConsumerModelTest.broadcast2" />
+      <item itemvalue="JUnit.ConsumerModelTest.producer" />
+      <item itemvalue="Spring Boot.RocketmqApplication" />
+      <item itemvalue="Spring Boot.JavaAgentApplication" />
+      <item itemvalue="Spring Boot.SkyWalkingApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.SkyWalkingApplication" />
+        <item itemvalue="Spring Boot.JavaAgentApplication" />
+        <item itemvalue="JUnit.ConsumerModelTest.producer" />
+        <item itemvalue="JUnit.ConsumerModelTest.broadcast" />
+        <item itemvalue="JUnit.ConsumerModelTest.broadcast2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="6de8b7ef-236e-482e-b9f9-bee272454cdf" name="更改" comment="" />
+      <created>1699928824701</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1699928824701</updated>
+      <workItem from="1713660260491" duration="2534000" />
+      <workItem from="1713745685878" duration="2446000" />
+      <workItem from="1713765775566" duration="707000" />
+      <workItem from="1713831614398" duration="4444000" />
+      <workItem from="1713874386712" duration="644000" />
+      <workItem from="1713916396784" duration="15014000" />
+      <workItem from="1713951669516" duration="89000" />
+      <workItem from="1713951781224" duration="1338000" />
+      <workItem from="1714018154983" duration="3693000" />
+      <workItem from="1714092627037" duration="2865000" />
+      <workItem from="1714303955075" duration="10443000" />
+      <workItem from="1714346797139" duration="10186000" />
+      <workItem from="1714557291508" duration="700000" />
+      <workItem from="1714558014019" duration="24000" />
+      <workItem from="1714558055848" duration="903000" />
+      <workItem from="1714560718740" duration="121000" />
+      <workItem from="1714560852001" duration="72000" />
+      <workItem from="1714561266602" duration="474000" />
+      <workItem from="1714561789564" duration="65000" />
+      <workItem from="1714561857307" duration="29000" />
+      <workItem from="1714561901899" duration="814000" />
+      <workItem from="1714562736779" duration="927000" />
+      <workItem from="1714563781707" duration="95000" />
+      <workItem from="1714563893014" duration="265000" />
+      <workItem from="1714564177866" duration="583000" />
+      <workItem from="1714624695223" duration="67000" />
+      <workItem from="1714634709910" duration="10273000" />
+      <workItem from="1714721488702" duration="552000" />
+      <workItem from="1714722062983" duration="471000" />
+      <workItem from="1714722571298" duration="80000" />
+      <workItem from="1714722662332" duration="9241000" />
+      <workItem from="1714807981716" duration="894000" />
+      <workItem from="1714821417454" duration="3621000" />
+      <workItem from="1714827165171" duration="147000" />
+      <workItem from="1714902639666" duration="1662000" />
+      <workItem from="1714913254951" duration="1450000" />
+      <workItem from="1714961807684" duration="2521000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/itbaizhan-payment-dubbo/src/main/java/com/itbaizhan/sercice/UserServiceImpl.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="token" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

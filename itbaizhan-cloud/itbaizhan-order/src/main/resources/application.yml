@@ -1,0 +1,13 @@
+spring:
+  profiles:
+    # 项目环境
+    active: dev
+  application:
+    # 项目名称
+    name: order-service
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.66.128:8848
+server:
+  port: 8004

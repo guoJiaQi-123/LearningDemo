@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: itbaizhan-agent
+
+server:
+  port: 7788

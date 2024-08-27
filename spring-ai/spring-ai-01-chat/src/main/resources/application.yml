@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: spring-ai-01-chat
+  ai:
+    openai:
+      api-key: sk-uaT5acJjDHbXy6ww76B2Da5a2dD64511AcBd4bC0C4BfA820
+      base-url: https://api.xty.app
+      chat:
+        options:
+          model: gpt-3.5-turbo
+          temperature: 0.3F
+
+
+# 淘宝买的3.5 sk-uaT5acJjDHbXy6ww76B2Da5a2dD64511AcBd4bC0C4BfA820 https://api.xty.app
+# 淘宝买的4.0 sk-V1ybgCKv0stYqwYzD7D7D59e99E24d99826c6fC5A26b11Ab https://api.gpts.vin
+# 自己的 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

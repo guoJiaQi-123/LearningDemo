@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: spring-ai-02-image
+  ai:
+    openai:
+      api-key: sk-V1ybgCKv0stYqwYzD7D7D59e99E24d99826c6fC5A26b11Ab
+      base-url: https://api.gpts.vin
+      image:
+        options:
+          model: gpt-4-all
+          n: 1
+          height: 1024
+          width: 1024
+          quality: hd

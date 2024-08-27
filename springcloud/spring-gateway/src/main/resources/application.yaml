@@ -1,0 +1,22 @@
+server:
+  port: 9527
+spring:
+  application:
+    name: cloud-gateway
+  cloud:
+    consul:
+      # consul 服务地址
+      host: 192.168.66.200
+      # consul 服务端口
+      port: 8500
+      discovery:
+        # 当前服务注册到consul的名字
+        service-name: ${spring.application.name}
+        # 注册时使用IP地址而不是hostname
+        prefer-ip-address: true
+    gateway:
+      routes:
+        - id: payment_service
+          uri: lb://order-service-feign
+          predicates:
+            - Path=/api/order/**

@@ -1,0 +1,50 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:c="http://www.springframework.org/schema/c"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       https://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/util
+       https://www.springframework.org/schema/util/spring-util.xsd
+       http://www.springframework.org/schema/context
+       https://www.springframework.org/schema/context/spring-context.xsd
+       http://www.springframework.org/schema/aop
+       https://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <!--配置包扫描-->
+    <context:component-scan base-package="com.bjsxt"></context:component-scan>
+    <!--注入切点-->
+    <bean id="serviceDemo" class="com.bjsxt.service.impl.ServiceDemoImpl"></bean>
+    <!--注入通知类-->
+    <bean id="myBeforeAdvice" class="com.bjsxt.advice.MyBeforeAdvice"></bean>
+    <bean id="myAfterAdvice" class="com.bjsxt.advice.MyAfterAdvice"></bean>
+    <bean id="myAroundAdvice" class="com.bjsxt.advice.MyAroundAdvice"></bean>
+    <!--配置切面-->
+    <aop:config>
+        <!--配置切点-->
+        <!--切点表达式: execution( 返回值 包名.类名.方法名（参数）)-->
+        <!-- * 表示任意类型返回值 -->
+        <!-- 包名支持用* 一个*代表一层包  ** 代表多层包 -->
+        <!-- 切入点是固定语法：execution(* 方法的全限定路径带有参数) -->
+        <!-- 无参方法：test()-->
+        <!-- 有参方法：test(int,java.lang.String)-->
+        <!-- 如果希望把所有叫做test的方法都匹配上，不考虑参数test(..)-->
+        <!-- 全限定路径的层数绝对不能少，但是如果希望对类或包做统配使用*-->
+        <!-- com.bjsxt.service.impl.*.*(..)-->
+        <aop:pointcut id="pointcut" expression="execution(* com.bjsxt.service.impl.ServiceDemoImpl.b())"/>
+        <!--配置前置通知-->
+        <aop:advisor advice-ref="myBeforeAdvice" pointcut-ref="pointcut"></aop:advisor>
+        <!--配置后置通知-->
+        <aop:advisor advice-ref="myAfterAdvice" pointcut-ref="pointcut"></aop:advisor>
+        <!--配置环绕通知-->
+        <aop:advisor advice-ref="myAroundAdvice" pointcut-ref="pointcut"></aop:advisor>
+        <!--配置异常通知-->
+        <aop:advisor advice-ref="myThrowAdvice" pointcut-ref="pointcut"></aop:advisor>
+    </aop:config>
+
+
+
+</beans>

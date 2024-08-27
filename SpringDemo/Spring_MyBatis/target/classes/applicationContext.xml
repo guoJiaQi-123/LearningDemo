@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+     http://www.springframework.org/schema/beans/spring-beans.xsd
+     http://www.springframework.org/schema/context
+     http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!--配置扫描包-->
+    <context:component-scan base-package="com.itbaizhan"/>
+
+    <!--读取配置文件-->
+    <context:property-placeholder location="classpath:db.properties"/>
+
+    <!--创建druid数据源对象-->
+    <bean name="dataSource" class="com.alibaba.druid.pool.DruidDataSource">
+        <property name="driverClassName" value="${jdbc.driverClassName}"/>
+        <property name="url" value="${jdbc.url}"/>
+        <property name="username" value="${jdbc.username}"/>
+        <property name="password" value="${jdbc.password}"/>
+    </bean>
+
+    <!-- Spring创建封装过的SqlSessionFactory -->
+    <bean name="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="dataSource"/>
+        <property name="configLocation" value="classpath:SqlMapConfig.xml"/>
+    </bean>
+
+    <!-- Spring创建封装过的SqlSession -->
+    <!--
+    <bean name="sqlSession" class="org.mybatis.spring.SqlSessionTemplate">
+       <constructor-arg name="sqlSessionFactory" ref="sqlSessionFactory"/>
+    </bean>
+   -->
+
+    <!-- 该对象可以自动扫描持久层接口，并为接口创建代理对象 -->
+    <bean name="mapperScanner" class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <!-- 配置扫描的接口包 -->
+        <property name="basePackage" value="com.itbaizhan.dao"/>
+    </bean>
+
+
+</beans>

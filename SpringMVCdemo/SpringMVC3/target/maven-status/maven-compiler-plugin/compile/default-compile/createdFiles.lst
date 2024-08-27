@@ -1,0 +1,3 @@
+com\itbaizhan\interceptor\SensitiveWordInterceptor.class
+com\itbaizhan\controller\MyController.class
+com\itbaizhan\interceptor\MyInterceptor.class
