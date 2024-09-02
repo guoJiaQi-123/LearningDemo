@@ -30,7 +30,7 @@ public class Producer {
         //绑定队列和交换机  参数一：队列名，参数二：交换机名，参数三：路由关键字
         channel.queueBind("SEND_MAIL2","exchange_routing","import");
         channel.queueBind("SEND_MESSAGE2","exchange_routing","import");
-        channel.queueBind("SEND_STATION2","exchange_routing","import");
+        channel.queueBind("SEND_STATION2","exdchange_routing","import");
         channel.queueBind("SEND_STATION2","exchange_routing","normal");
         //发送消息          参数一：交换机名    参数二：路由关键字   参数三：其他配置    参数四：发送消息的字节数据
         channel.basicPublish("exchange_routing","import",null,"双十一大促销".getBytes());
