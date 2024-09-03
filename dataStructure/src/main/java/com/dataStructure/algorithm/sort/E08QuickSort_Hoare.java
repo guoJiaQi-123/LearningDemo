@@ -45,8 +45,8 @@ public class E08QuickSort_Hoare {
             // 3. 交换位置
             swap(a, i, j);
         }
-        swap(a, j, left);
-        return j;
+        swap(a, i, left);
+        return i;
     }
 
     private static void swap(int[] a, int i, int j) {

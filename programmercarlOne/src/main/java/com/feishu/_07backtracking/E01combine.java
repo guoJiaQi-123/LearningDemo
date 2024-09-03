@@ -9,7 +9,7 @@ import java.util.List;
  * @author OldGj 2024/9/2
  * @apiNote 77. 组合
  */
-public class combine {
+public class E01combine {
         
     public List<List<Integer>> combine(int n, int k) {
         List<List<Integer>> res = new ArrayList<>();
