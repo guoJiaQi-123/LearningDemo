@@ -30,8 +30,7 @@ public class E03letterCombinations {
      * @param i 当前正在处理的字符串的索引 比如0，则表示正在处理 digits的第一个字符串，也是就2对应的字符串‘abc’
      */
     private void dfs(String digits, String[] numString, int i) {
-        // 如果i==digits.length()说明digits中的所有字符串都处理完成了
-        if (digits.length() == i) {
+        if (digits.length() == temp.length()) {
             // 将结果加入集合
             res.add(temp.toString());
             return;
@@ -39,7 +38,8 @@ public class E03letterCombinations {
         // 取当前应该处理的字符串
         // digits.charAt(i)表示取参数中的数字，比如“2”  -'0'操作将其转化为2~9范围内的int类型
         // numString[digits.charAt(i) - '0']; 则表示在映射关系中取当前数字对应的字符串
-        String str = numString[digits.charAt(i) - '0'];
+        char charAt = digits.charAt(i);
+        String str = numString[charAt - '0'];
         for (int j = 0; j < str.length(); j++) {
             temp.append(str.charAt(j));
             dfs(digits, numString, i + 1); // 取下一个字符串一个一个处理

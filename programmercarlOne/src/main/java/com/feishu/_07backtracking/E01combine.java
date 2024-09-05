@@ -37,6 +37,9 @@ public class E01combine {
             return;
         }
         // for循环的作用，固定第一个值，比如 1~4，分别固定1~4，如果start为2，则不会遍历到1
+        // i <= n - (k - path.size()) + 1;
+        // 剪枝：  缺的数字 > 备用数字
+        // 缺的数字：k - path.size()  >  备用数字：n - i + 1
         for (int i = start; i <= n - (k - path.size()) + 1; i++) {
             path.push(i); // 记录
             dfs(i + 1, n, k, path, res);
