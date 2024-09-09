@@ -24,6 +24,7 @@ public class Main2 {
         if (list == null) {
             return null;
         }
+
         int[] array = list.stream().sorted().mapToInt(Integer::intValue).toArray();
         List<Integer> res = new ArrayList<>();
         for (int i = 0; i < array.length; i++) {

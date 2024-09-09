@@ -18,7 +18,7 @@ public class Main {
         Map<Integer, Integer> map = new HashMap<>();
         for (Integer i : list) {
             if (map.containsKey(i)) {
-                map.put(i, map.get(i) + 1);
+                map.put(i, map.get(i) + 1); 
             } else {
                 map.put(i, 1);
             }
