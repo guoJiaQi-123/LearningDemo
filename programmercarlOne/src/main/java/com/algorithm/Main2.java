@@ -24,23 +24,26 @@ public class Main2 {
         if (list == null) {
             return null;
         }
-
+        // 先将数组排序
         int[] array = list.stream().sorted().mapToInt(Integer::intValue).toArray();
         List<Integer> res = new ArrayList<>();
         for (int i = 0; i < array.length; i++) {
             int curr = array[i];
+            // 判断第一个元素是否符合条件
             if (i == 0) {
                 int next = array[i + 1];
                 if (next - curr > K) {
                     res.add(curr);
                 }
             }
+            // 判断最后一个元素是否符合条件
             if (i == array.length - 1) {
                 int prev = array[i - 1];
                 if (curr - prev > K) {
                     res.add(curr);
                 }
             }
+            // 判断中间的元素是否符合条件
             if (i > 0 && i < array.length - 1) {
                 int prev = array[i - 1];
                 int next = array[i + 1];
@@ -49,6 +52,7 @@ public class Main2 {
                 }
             }
         }
+        // 在原先的数组中找第一个符合条件的
         for (Integer i : list) {
             if (res.contains(i)) {
                 return i;
