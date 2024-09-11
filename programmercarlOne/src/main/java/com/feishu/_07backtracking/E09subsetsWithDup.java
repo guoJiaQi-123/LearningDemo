@@ -1,9 +1,6 @@
 package com.feishu._07backtracking;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.*;
 
 /**
  * @version v1.0
@@ -43,6 +40,40 @@ public class E09subsetsWithDup {
             dfs(nums, i + 1);
             path.pop();
             used[i] = false;
+        }
+    }
+
+    static class solution{
+        List<List<Integer>> result = new ArrayList<>();
+        LinkedList<Integer> path = new LinkedList<>();
+
+        public List<List<Integer>> subsetsWithDup(int[] nums) {
+            if (nums.length == 0) {
+                result.add(path);
+                return result;
+            }
+            Arrays.sort(nums);
+            dfs(nums, 0);
+            return result;
+        }
+
+        private void dfs(int[] nums, int startIndex) {
+            result.add(new ArrayList<>(path));
+            if (startIndex >= nums.length) { // 终止条件
+                return;
+            }
+            // 使用set进行去重，第一次遇到入set，再遇到如果set中存在则跳过
+            Set<Integer> set = new HashSet<>();
+            for (int i = startIndex; i < nums.length; i++) {
+                int num = nums[i];
+                if (set.contains(num)) {
+                    continue;
+                }
+                set.add(num);
+                path.push(num);
+                dfs(nums, i + 1);
+                path.pop();
+            }
         }
     }
 }
