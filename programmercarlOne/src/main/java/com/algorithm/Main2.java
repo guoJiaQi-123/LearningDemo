@@ -15,6 +15,7 @@ public class Main2 {
     public static void main(String[] args) {
         Integer func = func(List.of(1, 2, 2, 5, 3, 5, 8, 11), 2);
         System.out.println(func);
+
     }
 
     /*
