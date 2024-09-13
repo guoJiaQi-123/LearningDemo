@@ -26,7 +26,8 @@ public class PermuteLeetcode46 {
      * @param track    自定义栈实现回溯
      * @param result   结果集合
      */
-    private void backTrack(int[] nums, boolean[] booleans, LinkedList<Integer> track, List<List<Integer>> result) {
+    private void backTrack(int[] nums, boolean[] booleans,
+                           LinkedList<Integer> track, List<List<Integer>> result) {
         // 递归的结束条件，当自定义栈中的数据个数和原始数组中的相同是，将其加入结果集合
         if (track.size() == nums.length) {
             result.add(new LinkedList<>(track));
