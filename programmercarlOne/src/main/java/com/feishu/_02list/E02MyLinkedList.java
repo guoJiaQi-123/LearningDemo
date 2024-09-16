@@ -326,4 +326,104 @@ public class E02MyLinkedList {
         }
     }
 
+    public static void main(String[] args) {
+        MyLinkedList5 myLinkedList5 = new MyLinkedList5();
+        myLinkedList5.addAtHead(1);
+        myLinkedList5.addAtTail(3);
+        myLinkedList5.addAtIndex(1, 2);
+        myLinkedList5.get(1);
+    }
+
+    static class MyLinkedList5 {
+
+        static class ListNode {
+            int val;
+            ListNode next;
+            ListNode pre;
+
+            public ListNode(int val) {
+                this.val = val;
+            }
+        }
+
+        int size;
+        ListNode head, tail;
+
+        // 构造方法，初始化链表，定义长度，头节点，尾节点
+        public MyLinkedList5() {
+            size = 0;
+            head = new ListNode(0);
+            tail = new ListNode(0);
+            head.next = tail;
+            tail.pre = head;
+        }
+
+        public int get(int index) {
+            if (index < 0 || index >= size) {
+                return -1;
+            }
+            return getNode(index).val;
+        }
+
+        public ListNode getNode(int index) {
+            ListNode curr;
+            // 判断更短路径
+            if (index >= size / 2) {
+                // tail开始
+                curr = tail;
+                for (int i = 0; i < size - index; i++) {
+                    curr = curr.pre;
+                }
+            } else {
+                curr = head;
+                for (int i = 0; i <= index; i++) {
+                    curr = curr.next;
+                }
+            }
+            return curr;
+        }
+
+        public void addAtHead(int val) {
+            addAtIndex(0, val);
+        }
+
+        public void addAtTail(int val) {
+            addAtIndex(size, val);
+        }
+
+        public void addAtIndex(int index, int val) {
+            if (index > size) {
+                return;
+            }
+            ListNode addNode = new ListNode(val);
+            ListNode pred = head;
+            if (index <= 0) {
+                index = 0;
+            }
+            if (index == size) {
+                // 获得最后一个节点
+                pred = getNode(index - 1);
+            } else {
+                pred = getNode(index).pre;
+            }
+            size++;
+            addNode.next = pred.next;
+            pred.next.pre = addNode;
+            addNode.pre = pred;
+            pred.next = addNode;
+        }
+
+        public void deleteAtIndex(int index) {
+            if (index < 0 || index >= size) {
+                return;
+            }
+            // 找到index的前驱
+            ListNode curr = getNode(index);
+            curr.next.pre = curr.pre;
+            curr.pre.next = curr.next;
+            size--;
+        }
+
+    }
+
 }
