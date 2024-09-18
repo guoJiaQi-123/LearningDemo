@@ -1,5 +1,6 @@
 package com.feishu._07backtracking;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
@@ -10,14 +11,18 @@ import java.util.List;
  * @apiNote 40. 组合总和 II
  */
 public class E05combinationSum2 {
+    List<List<Integer>> result = new LinkedList<>();
+    LinkedList<Integer> stack = new LinkedList<>();
+    boolean[] visited;
+
     public List<List<Integer>> combinationSum2(int[] candidates, int target) {
-        Arrays.sort(candidates);
-        List<List<Integer>> result = new LinkedList<>();
-        dfs(0, candidates, target, new boolean[candidates.length], new LinkedList<>(), result);
+        Arrays.sort(candidates); // 排序，将相同的元素相邻放置
+        visited = new boolean[candidates.length];
+        dfs(0, candidates, target);
         return result;
     }
 
-    public void dfs(int start, int[] candidates, int target, boolean[] visited, LinkedList<Integer> stack, List<List<Integer>> result) {
+    public void dfs(int start, int[] candidates, int target) {
         if (target == 0) {
             result.add(new LinkedList<>(stack));
             return;
@@ -35,7 +40,7 @@ public class E05combinationSum2 {
             visited[i] = true;
             stack.push(candidate);
             // 不同点，从当前遍历到的元素后面开始递归，start = i+1;排除自身（使得结果中一个元素只能出现一次）
-            dfs(i + 1, candidates, target - candidate, visited, stack, result);
+            dfs(i + 1, candidates, target - candidate);
             stack.pop();
             visited[i] = false;
         }

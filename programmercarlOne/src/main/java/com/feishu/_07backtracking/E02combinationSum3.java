@@ -10,14 +10,15 @@ import java.util.List;
  * @apiNote 216. 组合总和 III
  */
 public class E02combinationSum3 {
+    List<List<Integer>> res = new ArrayList<>();
+    LinkedList<Integer> path = new LinkedList<>();
+
     public List<List<Integer>> combinationSum3(int k, int n) {
-        List<List<Integer>> res = new ArrayList<>();
-        LinkedList<Integer> path = new LinkedList<>();
-        dfs(1, k, n, path, res);
+        dfs(1, k, n);
         return res;
     }
 
-    private void dfs(int start, int k, int target, LinkedList<Integer> path, List<List<Integer>> res) {
+    private void dfs(int start, int k, int target) {
         if (target == 0 && path.size() == k) {
             res.add(new ArrayList<>(path));
             return;
@@ -30,7 +31,7 @@ public class E02combinationSum3 {
                 continue; // 剪枝
             }
             path.push(i);
-            dfs(i + 1, k, target - i, path, res);
+            dfs(i + 1, k, target - i);
             path.pop();
         }
     }
