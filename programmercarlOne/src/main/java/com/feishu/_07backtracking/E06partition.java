@@ -11,6 +11,7 @@ import java.util.List;
  */
 public class E06partition {
 
+
     //保持前几题一贯的格式， initialization
     List<List<String>> res = new ArrayList<>();
     List<String> cur = new ArrayList<>();
