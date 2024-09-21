@@ -17,13 +17,14 @@ public class E09subsetsWithDup {
             result.add(path);
             return result;
         }
-        Arrays.sort(nums);
+        Arrays.sort(nums); // 排序
         used = new boolean[nums.length];
         dfs(nums, 0);
         return result;
     }
 
     private void dfs(int[] nums, int startIndex) {
+        // 子集是收集树形结构中树的所有节点的结果。
         result.add(new ArrayList<>(path));
         if (startIndex >= nums.length) { // 终止条件
             return;

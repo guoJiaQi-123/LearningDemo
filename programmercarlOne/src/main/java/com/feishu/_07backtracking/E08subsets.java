@@ -10,20 +10,21 @@ import java.util.List;
  * @apiNote 78. 子集
  */
 public class E08subsets {
+    List<List<Integer>> list = new ArrayList<>();
+    LinkedList<Integer> path = new LinkedList<>();
+
     public List<List<Integer>> subsets(int[] nums) {
-        List<List<Integer>> list = new ArrayList<>();
-        LinkedList<Integer> path = new LinkedList<>();
-        dfs(0, nums, list, path);
+        dfs(0, nums);
         return list;
     }
 
-    private void dfs(int start, int[] nums, List<List<Integer>> list, LinkedList<Integer> path) {
+    private void dfs(int start, int[] nums) {
         // 子集是收集树形结构中树的所有节点的结果。
         list.add(new ArrayList<>(path));
         for (int i = start; i < nums.length; i++) {
             int num = nums[i];
             path.push(num);
-            dfs(i + 1, nums, list, path);
+            dfs(i + 1, nums);
             path.pop();
         }
     }

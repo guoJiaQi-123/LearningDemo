@@ -3,6 +3,7 @@ package com.feishu._07backtracking;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 /**
  * @version v1.0
@@ -25,14 +26,14 @@ public class E10findSubsequences {
             res.add(new ArrayList<>(path));
         }
         // 使用set去重，如果第一次访问一个值，则添加到set集合，如果第二次又遇到了这个值，set集合中存在，则跳过此次循环，达到去重的目的
-        HashSet<Integer> set = new HashSet<>();
+        Set<Integer> set = new HashSet<>();
         for (int i = startIndex; i < nums.length; i++) {
             int num = nums[i];
-            //  如果path集合的最后一个元素比当前值num还大，则跳出循环 || 当前值已经使用过了
+            //  如果path集合的最后一个元素比当前值num还大（不递增了），则跳出循环 || 当前值已经使用过了
             if (!path.isEmpty() && path.get(path.size() - 1) > num || set.contains(num)) {
                 continue;
             }
-            set.add(num);
+            set.add(num); // 在set中记录当前元素已经出现过了
             path.add(num);
             dfs(i + 1, nums);
             path.remove(path.size() - 1);

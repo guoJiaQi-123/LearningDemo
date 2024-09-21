@@ -16,7 +16,7 @@ public class E11permute {
 
     public List<List<Integer>> permute(int[] nums) {
         used = new boolean[nums.length];
-        dfs( nums);
+        dfs(nums);
         return res;
     }
 
@@ -27,12 +27,12 @@ public class E11permute {
             return;
         }
         for (int i = 0; i < nums.length; i++) {
-            if(!used[i]){ // 只有在元素没有被访问的情况下才做选择
-                used[i]  =true;
+            if (!used[i]) { // 只有在元素没有被访问的情况下才做选择
+                used[i] = true;
                 path.add(nums[i]);
                 dfs(nums);
                 used[i] = false;
-                path.remove(path.size()-1);
+                path.remove(path.size() - 1);
             }
         }
     }

@@ -12,7 +12,7 @@ import java.util.List;
 public class E06partition {
 
 
-    //保持前几题一贯的格式， initialization
+    //保持前几题一贯的格式
     List<List<String>> res = new ArrayList<>();
     List<String> cur = new ArrayList<>();
 
@@ -28,7 +28,7 @@ public class E06partition {
             res.add(new ArrayList<>(cur));
             return;
         }
-        //像前两题一样从前往后搜索，如果发现回文，进入backtracking,起始位置后移一位，循环结束照例移除cur的末位
+        //像前两题一样从前往后搜索，如果发现回文，进入backtracking,起始位置后移一位，递归结束照例移除cur的末位
         for (int i = start; i < s.length(); i++) {
             sb.append(s.charAt(i));
             if (check(sb)) {
@@ -39,7 +39,7 @@ public class E06partition {
         }
     }
 
-    //helper method, 检查是否是回文
+    //helper method, 检查是否是回文，前后指针指向的元素不同，则不是回文
     private boolean check(StringBuilder sb) {
         for (int i = 0; i < sb.length() / 2; i++) {
             if (sb.charAt(i) != sb.charAt(sb.length() - 1 - i)) {
