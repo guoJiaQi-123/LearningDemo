@@ -10,7 +10,7 @@ import java.util.List;
  */
 public class SumLeetcode18 {
 
-    static List<List<Integer>> fourSum(int[] nums, int target) {
+    public List<List<Integer>> fourSum(int[] nums, int target) {
         Arrays.sort(nums);
         List<List<Integer>> result = new LinkedList<>();
         dfs(4, 0, nums.length - 1, target, nums,
@@ -18,7 +18,7 @@ public class SumLeetcode18 {
         return result;
     }
 
-    static void dfs(int n, int i, int j, int target, int[] nums,
+    public void dfs(int n, int i, int j, int target, int[] nums,
                     LinkedList<Integer> stack,
                     List<List<Integer>> result) {
         if (n == 2) {
@@ -38,12 +38,10 @@ public class SumLeetcode18 {
         }
     }
 
-    static int count;
 
-    static public void twoSum(int i, int j, int[] numbers, int target,
-                              LinkedList<Integer> stack,
-                              List<List<Integer>> result) {
-        count++;
+    public void twoSum(int i, int j, int[] numbers, int target,
+                       LinkedList<Integer> stack,
+                       List<List<Integer>> result) {
         while (i < j) {
             int sum = numbers[i] + numbers[j];
             if (sum < target) {
@@ -68,9 +66,5 @@ public class SumLeetcode18 {
         }
     }
 
-    public static void main(String[] args) {
-        System.out.println(fourSum(new int[]{1, 0, -1, 0, -2, 2}, 0));
-//        System.out.println(fourSum(new int[]{2, 2, 2, 2, 2}, 8));
-//        System.out.println(fourSum(new int[]{1000000000,1000000000,1000000000,1000000000}, -294967296));
-    }
+
 }
