@@ -25,6 +25,7 @@ public class E04maxProfit {
         return res;
     }
 
+
     public int maxProfit2(int[] prices) {
         int[] profits = new int[prices.length - 1]; // 每天的利润数组，每天的利润数组从第二天开始算，比天数少1
         for (int i = 1; i < prices.length; i++) {
