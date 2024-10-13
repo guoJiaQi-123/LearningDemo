@@ -49,6 +49,7 @@ public class E08canCompleteCircuit {
             }
             if (totalSum < 0) return -1; // 总加油量小于总油耗，一定跑不完
             return index;
+            
         }
     }
 
