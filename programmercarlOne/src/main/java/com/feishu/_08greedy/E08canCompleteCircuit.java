@@ -29,6 +29,29 @@ public class E08canCompleteCircuit {
         return -1;
     }
 
+    static class Solution {
+        /*
+            局部最优：当前累加rest[i]的和curSum一旦小于0，起始位置至少要是i+1，因为从i之前开始一定不行。
+            全局最优：找到可以跑一圈的起始位置。
+         */
+        public int canCompleteCircuit(int[] gas, int[] cost) {
+            int curSum = 0;
+            int totalSum = 0;
+            int index = 0;
+            for (int i = 0; i < gas.length; i++) {
+                // 一旦curSum小于零，说明[0, i]区间都不能作为起始位置，因为这个区间选择任何一个位置作为起点，到i这里都会断油
+                curSum += gas[i] - cost[i]; // 每个加油站的剩余量的累加
+                totalSum += gas[i] - cost[i];
+                if (curSum < 0) {
+                    index = i + 1;
+                    curSum = 0;
+                }
+            }
+            if (totalSum < 0) return -1; // 总加油量小于总油耗，一定跑不完
+            return index;
+        }
+    }
+
     public static void main(String[] args) {
         int i = new E08canCompleteCircuit().canCompleteCircuit(new int[]{1, 2, 3, 4, 5}, new int[]{3, 4, 5, 1, 2});
         System.out.println(i);
