@@ -49,12 +49,11 @@ public class E08canCompleteCircuit {
             }
             if (totalSum < 0) return -1; // 总加油量小于总油耗，一定跑不完
             return index;
-            
+
         }
     }
 
     public static void main(String[] args) {
-        int i = new E08canCompleteCircuit().canCompleteCircuit(new int[]{1, 2, 3, 4, 5}, new int[]{3, 4, 5, 1, 2});
-        System.out.println(i);
+
     }
 }
