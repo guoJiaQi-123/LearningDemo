@@ -9,6 +9,7 @@ public class Client {
     public static void main(String[] args) {
         MI4S mi4S = new MI4S();
         XiaoMiSU7 xiaoMiSU7 = mi4S.orderXiaoMiSU7("high");
+
         System.out.println(xiaoMiSU7.getDisposition());
     }
 }
