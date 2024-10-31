@@ -14,6 +14,7 @@ import java.lang.reflect.Method;
  */
 public class ProxyFactory implements MethodInterceptor {
 
+
     private Object target;
 
     public ProxyFactory(Object target) {
@@ -41,7 +42,6 @@ public class ProxyFactory implements MethodInterceptor {
     public Object intercept(Object o, Method method, Object[] objects, MethodProxy methodProxy) throws Throwable {
         System.out.println("代理");
         // Object object = method.invoke(new TrainStation(), objects);
-        Object object1 = methodProxy.invokeSuper(o, objects);
-        return object1;
+        return methodProxy.invokeSuper(o, objects);
     }
 }

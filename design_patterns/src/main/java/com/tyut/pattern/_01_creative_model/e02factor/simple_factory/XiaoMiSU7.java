@@ -7,11 +7,11 @@ package com.tyut.pattern._01_creative_model.e02factor.simple_factory;
  */
 public abstract class XiaoMiSU7 {
 
-    public void run(){
+    public void run() {
         System.out.println("百公里加速2.78");
     }
 
-    public void stop(){
+    public void stop() {
         System.out.println("黄色刹车盘");
     }
 
