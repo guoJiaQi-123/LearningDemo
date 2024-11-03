@@ -2,7 +2,6 @@ package com.tyut._07binarytree;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Stack;
 
 /**
  * @version v1.0
@@ -24,12 +23,12 @@ public class E19binaryTreePaths {
     private void doBinaryTreePaths(TreeNode root, List<Integer> paths, List<String> res) {
         paths.add(root.val);
         if (root.right == null && root.left == null) { // 遇到叶子节点
-            StringBuilder stringBuilder = new StringBuilder();
+            StringBuilder sb = new StringBuilder();
             for (int i = 0; i < paths.size() - 1; i++) {
-                stringBuilder.append(paths.get(i)).append("->"); // 拼接结果，不包括最后一个数据
+                sb.append(paths.get(i)).append("->"); // 拼接结果，不包括最后一个数据
             }
-            stringBuilder.append(paths.get(paths.size() - 1)); // 拼接最后一个数据
-            res.add(stringBuilder.toString());// 加入结果集合
+            sb.append(paths.get(paths.size() - 1)); // 拼接最后一个数据
+            res.add(sb.toString());// 加入结果集合
             return;
         }
         if (root.left != null) {
