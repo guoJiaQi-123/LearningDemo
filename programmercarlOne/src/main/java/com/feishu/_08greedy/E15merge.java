@@ -11,6 +11,7 @@ import java.util.stream.Collectors;
 public class E15merge {
     public int[][] merge(int[][] intervals) {
         LinkedList<int[]> res = new LinkedList<>();
+
         // 按照区间的左边界将区间排序
         Arrays.sort(intervals, (o1, o2) -> Integer.compare(o1[0], o2[0]));
         // 默认加入第一个区间
