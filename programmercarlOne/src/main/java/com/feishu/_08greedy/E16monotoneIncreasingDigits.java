@@ -13,7 +13,7 @@ public class E16monotoneIncreasingDigits {
         for (int i = s.length() - 2; i >= 0; i--) {
             if (chars[i] > chars[i + 1]) {
                 chars[i]--; // 一旦当前数字减小
-                flag = i + 1; // 当前数字后面就全部为9，使用一个flag变量记录这个位置
+                flag = i + 1; //  当前数字后面就全部为9，使用一个flag变量记录这个位置
             }
         }
         for (int i = flag; i < s.length(); i++) {
