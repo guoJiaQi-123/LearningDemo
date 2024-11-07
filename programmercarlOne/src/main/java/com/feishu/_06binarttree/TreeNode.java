@@ -8,9 +8,9 @@ package com.feishu._06binarttree;
 public class TreeNode {
 
 
-    Integer val;
-    TreeNode left;
-    TreeNode right;
+    public Integer val;
+    public TreeNode left;
+    public TreeNode right;
 
     public TreeNode() {
     }
