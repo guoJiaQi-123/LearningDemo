@@ -12,7 +12,6 @@ public class E06integerBreak {
         dp[2] = 1;
         for (int i = 3; i <= n; i++) {
             for (int j = 1; j <= i >>> 1; j++) {
-                // 这里的 j 其实最大值为 i-j,再大只不过是重复而已，
                 //并且，在本题中，我们分析 dp[0], dp[1]都是无意义的，
                 //j 最大到 i-j,就不会用到 dp[0]与dp[1]
                 dp[i] = Math.max(dp[i], Math.max(j * (i - j), j * dp[i - j]));
