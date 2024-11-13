@@ -9,7 +9,7 @@ import java.util.Arrays;
  */
 public class E04uniquePaths {
     public int uniquePaths(int m, int n) {
-        // dp[i][j] ：表示从（0 ，0）出发，到(i, j) 有dp[i][j]条不同的路径
+        // dp[i][j] ：表示从（0 ，0）出发，到(i, j)  有dp[i][j]条不同的路径
         int[][] dp = new int[m][n];
         for (int[] ints : dp) {
             Arrays.fill(ints, 1);
