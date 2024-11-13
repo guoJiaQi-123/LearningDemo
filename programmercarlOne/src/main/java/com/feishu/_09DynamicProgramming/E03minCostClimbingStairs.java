@@ -8,7 +8,7 @@ package com.feishu._09DynamicProgramming;
 public class E03minCostClimbingStairs {
     public int minCostClimbingStairs(int[] cost) {
         int len = cost.length;
-        // dp[i]的定义：到达第i台阶所花费的最少体力为dp[i]。
+        // dp[i]的定义：到达第i台阶所花费的最少体力 为dp[i]。
         int[] dp = new int[len + 1];
         // 状态转移方程：dp[i] = min(dp[i - 1] + cost[i - 1], dp[i - 2] + cost[i - 2]);
         // 解读：要到台阶n可以从n-1来或者n-2来，从n-1来需要花费dp[i - 1] + cost[i - 1]这么多体力
