@@ -23,6 +23,7 @@ public class E04uniquePaths {
         return dp[m - 1][n - 1];
     }
 
+    // 降维
     public int uniquePaths2(int m, int n) {
         // 在二维dp数组中，当前值的计算只依赖正上方和正左方，因此可以压缩成一维数组。
         int[] dp = new int[n];
