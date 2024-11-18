@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa757040-afb5-4bb7-8b2c-64d7a4781f06" name="更改" comment="" />
+    <list default="true" id="aa757040-afb5-4bb7-8b2c-64d7a4781f06" name="更改" comment="「修改」代理工厂" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,11 +18,15 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
+        <option name="customMavenHome" value="D:/Program Files/Lenovo/apache-maven-3.8.3" />
         <option name="localRepository" value="E:\repository" />
-        <option name="mavenHome" value="D:/Program Files/Lenovo/apache-maven-3.8.3" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
         <option name="userSettingsFile" value="D:\Program Files\Lenovo\apache-maven-3.8.3\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -33,9 +37,11 @@
   <component name="ProjectId" id="2cXbnoO50xDyP1ugXjfTfUMbcfI" />
   <component name="ProjectViewState">
     <option name="autoscrollToSource" value="true" />
+    <option name="compactDirectories" value="true" />
     <option name="openDirectoriesWithSingleClick" value="true" />
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
+    <option name="showModules" value="false" />
     <option name="showScratchesAndConsoles" value="false" />
   </component>
   <component name="PropertiesComponent">{
@@ -43,16 +49,22 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/HX/IdeaProjects/design_patterns/src/main/java/com/tyut/pattern/_02_structure_model/e02adapter/object_adapter&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;GrepConsole&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
+    &quot;应用程序.Client.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.com.tyut.pattern._02_structure_model.e01proxy.jdk_proxy.Client.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.com.tyut.pattern._02_structure_model.e01proxy.static_proxy.Client.executor&quot;: &quot;Run&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -73,11 +85,11 @@
   </component>
   <component name="RunManager" selected="应用程序.Client">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tyut.pattern._01_creative_model.e03prototype.demo1.Client" />
+      <option name="MAIN_CLASS_NAME" value="com.tyut.pattern._02_structure_model.e01proxy.cglib_proxy.Client" />
       <module name="design_patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tyut.pattern._01_creative_model.e03prototype.demo1.*" />
+          <option name="PATTERN" value="com.tyut.pattern._02_structure_model.e01proxy.cglib_proxy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.tyut.pattern._02_structure_model.e04bridge.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tyut.pattern._02_structure_model.e04bridge.Client" />
+    <configuration name="com.tyut.pattern._02_structure_model.e01proxy.jdk_proxy.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tyut.pattern._02_structure_model.e01proxy.jdk_proxy.Client" />
       <module name="design_patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tyut.pattern._02_structure_model.e04bridge.*" />
+          <option name="PATTERN" value="com.tyut.pattern._02_structure_model.e01proxy.jdk_proxy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.tyut.pattern._02_structure_model.e06combination.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tyut.pattern._02_structure_model.e06combination.Client" />
+    <configuration name="com.tyut.pattern._02_structure_model.e01proxy.static_proxy.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tyut.pattern._02_structure_model.e01proxy.static_proxy.Client" />
       <module name="design_patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tyut.pattern._02_structure_model.e06combination.*" />
+          <option name="PATTERN" value="com.tyut.pattern._02_structure_model.e01proxy.static_proxy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.Client" />
+        <item itemvalue="应用程序.com.tyut.pattern._02_structure_model.e01proxy.static_proxy.Client" />
+        <item itemvalue="应用程序.com.tyut.pattern._02_structure_model.e01proxy.jdk_proxy.Client" />
         <item itemvalue="应用程序.com.tyut.pattern._03_behavior_model.e02trategy.Client" />
         <item itemvalue="应用程序.com.tyut.pattern._03_behavior_model.e01template.Client" />
-        <item itemvalue="应用程序.com.tyut.pattern._02_structure_model.e06combination.Client" />
-        <item itemvalue="应用程序.Client" />
-        <item itemvalue="应用程序.com.tyut.pattern._02_structure_model.e04bridge.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -183,11 +195,48 @@
       <workItem from="1710151758257" duration="91000" />
       <workItem from="1710158007824" duration="2264000" />
       <workItem from="1710310900372" duration="2149000" />
+      <workItem from="1729698534449" duration="370000" />
+      <workItem from="1730286031042" duration="32000" />
+      <workItem from="1730286318669" duration="5451000" />
+      <workItem from="1730373455888" duration="18000" />
+      <workItem from="1730378520733" duration="124000" />
+      <workItem from="1730378715710" duration="2649000" />
     </task>
+    <task id="LOCAL-00001" summary="设计模式">
+      <option name="closed" value="true" />
+      <created>1729698879566</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1729698879567</updated>
+    </task>
+    <task id="LOCAL-00002" summary="每日算法2024/10/28">
+      <option name="closed" value="true" />
+      <created>1730286918413</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1730286918413</updated>
+    </task>
+    <task id="LOCAL-00003" summary="「修改」代理工厂">
+      <option name="closed" value="true" />
+      <created>1730385998989</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1730385998989</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="设计模式" />
+    <MESSAGE value="每日算法2024/10/28" />
+    <MESSAGE value="「修改」代理工厂" />
+    <option name="LAST_COMMIT_MESSAGE" value="「修改」代理工厂" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

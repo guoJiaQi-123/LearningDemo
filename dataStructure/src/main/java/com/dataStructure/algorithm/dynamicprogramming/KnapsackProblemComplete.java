@@ -72,8 +72,7 @@ public class KnapsackProblemComplete {
                 // x: 上一次同容量背包的最大价值
                 int x = dp[i - 1][j];
                 if (j >= item.weight) {// 放得下
-                    // j-item.weight: 当前背包容量-这次物品重量=剩余背包空间
-                    // y: 剩余背包空间能装下的最大价值 + 这次物品价值
+                    // j-item.weight: 当前背包容量-这次物品重量=剩余背包空间 -> 在当前行 i 找
                     dp[i][j] = Integer.max(x, dp[i][j - item.weight] + item.value);
                 } else {
                     dp[i][j] = x;

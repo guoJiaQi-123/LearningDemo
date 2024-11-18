@@ -4,11 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50d5614d-09f1-4b90-a477-232054d40ceb" name="更改" comment="每日算法2024年9月13日" />
+    <list default="true" id="50d5614d-09f1-4b90-a477-232054d40ceb" name="更改" comment="「新增」每日算法2024/11/14 -&gt; 0-1背包问题" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -46,6 +51,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Application.E03minCostClimbingStairs.executor&quot;: &quot;Debug&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
@@ -57,24 +63,40 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
     &quot;应用程序.E01combine.executor&quot;: &quot;Debug&quot;,
+    &quot;应用程序.E01fib.executor&quot;: &quot;Debug&quot;,
+    &quot;应用程序.E01findContentChildren.executor&quot;: &quot;Debug&quot;,
+    &quot;应用程序.E02MyLinkedList.executor&quot;: &quot;Debug&quot;,
     &quot;应用程序.E02combinationSum3.executor&quot;: &quot;Debug&quot;,
     &quot;应用程序.E02removeDuplicates.executor&quot;: &quot;Debug&quot;,
     &quot;应用程序.E03InsertionSort.executor&quot;: &quot;Run&quot;,
     &quot;应用程序.E03evalRPN.executor&quot;: &quot;Debug&quot;,
     &quot;应用程序.E03isHappy.executor&quot;: &quot;Run&quot;,
     &quot;应用程序.E03letterCombinations.executor&quot;: &quot;Debug&quot;,
+    &quot;应用程序.E03maxSubArray.executor&quot;: &quot;Debug&quot;,
     &quot;应用程序.E04ShellSort.executor&quot;: &quot;Debug&quot;,
+    &quot;应用程序.E04maxProfit.executor&quot;: &quot;Debug&quot;,
     &quot;应用程序.E04maxSlidingWindow.executor&quot;: &quot;Debug&quot;,
     &quot;应用程序.E04removeElement.executor&quot;: &quot;Debug&quot;,
+    &quot;应用程序.E04uniquePaths.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.E05canJump.executor&quot;: &quot;Debug&quot;,
     &quot;应用程序.E05sortedSquares.executor&quot;: &quot;Debug&quot;,
+    &quot;应用程序.E05uniquePathsWithObstacles.executor&quot;: &quot;Run&quot;,
     &quot;应用程序.E06partition.executor&quot;: &quot;Debug&quot;,
     &quot;应用程序.E07lengthOfLongestSubstring.executor&quot;: &quot;Debug&quot;,
+    &quot;应用程序.E08KnapsackProblem.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.E08canCompleteCircuit.executor&quot;: &quot;Run&quot;,
     &quot;应用程序.E08fourSum.executor&quot;: &quot;Run&quot;,
     &quot;应用程序.E09minSubArrayLen.executor&quot;: &quot;Debug&quot;,
+    &quot;应用程序.E10lemonadeChange.executor&quot;: &quot;Debug&quot;,
     &quot;应用程序.E10minWindow.executor&quot;: &quot;Debug&quot;,
+    &quot;应用程序.E12findMinArrowShots.executor&quot;: &quot;Debug&quot;,
+    &quot;应用程序.E13solveNQueens.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.E14partitionLabels.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.E15merge.executor&quot;: &quot;Debug&quot;,
+    &quot;应用程序.E16monotoneIncreasingDigits.executor&quot;: &quot;Debug&quot;,
     &quot;应用程序.E32lowestCommonAncestor.executor&quot;: &quot;Debug&quot;,
     &quot;应用程序.Main.executor&quot;: &quot;Run&quot;,
     &quot;应用程序.Main2.executor&quot;: &quot;Run&quot;,
@@ -88,13 +110,13 @@
       <recent name="com.algorithm.sort" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.Main2">
-    <configuration name="E01combine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.feishu._07backtracking.E01combine" />
+  <component name="RunManager" selected="应用程序.E08KnapsackProblem">
+    <configuration name="E01fib" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.feishu._09DynamicProgramming.E01fib" />
       <module name="programmercarlOne" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.feishu._07backtracking.*" />
+          <option name="PATTERN" value="com.feishu._09DynamicProgramming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="E07lengthOfLongestSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.feishu._04str.E07lengthOfLongestSubstring" />
+    <configuration name="E04uniquePaths" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.feishu._09DynamicProgramming.E04uniquePaths" />
       <module name="programmercarlOne" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.feishu._04str.*" />
+          <option name="PATTERN" value="com.feishu._09DynamicProgramming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,12 +137,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="E08fourSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.feishu._03hashtable.E08fourSum" />
+    <configuration name="E05uniquePathsWithObstacles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.feishu._09DynamicProgramming.E05uniquePathsWithObstacles" />
       <module name="programmercarlOne" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.feishu._03hashtable.*" />
+          <option name="PATTERN" value="com.feishu._09DynamicProgramming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,12 +150,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.algorithm.Main" />
+    <configuration name="E08KnapsackProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.feishu._09DynamicProgramming.E08KnapsackProblem" />
       <module name="programmercarlOne" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.algorithm.*" />
+          <option name="PATTERN" value="com.feishu._09DynamicProgramming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,12 +163,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.algorithm.Main2" />
+    <configuration name="E16monotoneIncreasingDigits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.feishu._08greedy.E16monotoneIncreasingDigits" />
       <module name="programmercarlOne" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.algorithm.*" />
+          <option name="PATTERN" value="com.feishu._08greedy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,9 +178,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.Main2" />
-        <item itemvalue="应用程序.Main" />
-        <item itemvalue="应用程序.E01combine" />
+        <item itemvalue="应用程序.E08KnapsackProblem" />
+        <item itemvalue="应用程序.E05uniquePathsWithObstacles" />
+        <item itemvalue="应用程序.E04uniquePaths" />
+        <item itemvalue="应用程序.E01fib" />
+        <item itemvalue="应用程序.E16monotoneIncreasingDigits" />
       </list>
     </recent_temporary>
   </component>
@@ -308,6 +332,37 @@
       <workItem from="1726018933256" duration="2074000" />
       <workItem from="1726058713661" duration="3623000" />
       <workItem from="1726233974628" duration="1853000" />
+      <workItem from="1726400376161" duration="5568000" />
+      <workItem from="1726407961042" duration="725000" />
+      <workItem from="1726462235084" duration="2592000" />
+      <workItem from="1726671662870" duration="1969000" />
+      <workItem from="1726755751401" duration="99000" />
+      <workItem from="1726917370831" duration="5960000" />
+      <workItem from="1727015641900" duration="2060000" />
+      <workItem from="1727187112798" duration="3385000" />
+      <workItem from="1727277858132" duration="1679000" />
+      <workItem from="1727449151718" duration="3105000" />
+      <workItem from="1727619281945" duration="4334000" />
+      <workItem from="1728486488792" duration="1080000" />
+      <workItem from="1728655205584" duration="2016000" />
+      <workItem from="1728825080869" duration="1355000" />
+      <workItem from="1728993772860" duration="661000" />
+      <workItem from="1729005761913" duration="1986000" />
+      <workItem from="1730009981938" duration="2626000" />
+      <workItem from="1730466385637" duration="2648000" />
+      <workItem from="1730555174869" duration="3776000" />
+      <workItem from="1730642868747" duration="4364000" />
+      <workItem from="1730729981173" duration="5151000" />
+      <workItem from="1730890967473" duration="6120000" />
+      <workItem from="1730985255207" duration="59000" />
+      <workItem from="1730991301158" duration="1802000" />
+      <workItem from="1731158257512" duration="3833000" />
+      <workItem from="1731238024213" duration="3581000" />
+      <workItem from="1731339577218" duration="1270000" />
+      <workItem from="1731421937878" duration="1000" />
+      <workItem from="1731512382318" duration="283000" />
+      <workItem from="1731591143335" duration="2239000" />
+      <workItem from="1731667851424" duration="1173000" />
     </task>
     <task id="LOCAL-00001" summary="每日算法2024年9月3日">
       <option name="closed" value="true" />
@@ -397,21 +452,354 @@
       <option name="project" value="LOCAL" />
       <updated>1726235835721</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="每日算法2024年9月15日">
+      <option name="closed" value="true" />
+      <created>1726407981429</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1726407981429</updated>
+    </task>
+    <task id="LOCAL-00013" summary="每日算法2024年9月16日">
+      <option name="closed" value="true" />
+      <created>1726464198348</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1726464198348</updated>
+    </task>
+    <task id="LOCAL-00014" summary="每日算法2024年9月18日">
+      <option name="closed" value="true" />
+      <created>1726674096089</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1726674096089</updated>
+    </task>
+    <task id="LOCAL-00015" summary="每日算法2024年9月19日">
+      <option name="closed" value="true" />
+      <created>1726755791868</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1726755791868</updated>
+    </task>
+    <task id="LOCAL-00016" summary="每日算法2024年9月21日">
+      <option name="closed" value="true" />
+      <created>1726923060676</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1726923060676</updated>
+    </task>
+    <task id="LOCAL-00017" summary="每日算法2024年9月24日">
+      <option name="closed" value="true" />
+      <created>1727189301237</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1727189301237</updated>
+    </task>
+    <task id="LOCAL-00018" summary="每日算法2024年9月25日">
+      <option name="closed" value="true" />
+      <created>1727280471461</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1727280471461</updated>
+    </task>
+    <task id="LOCAL-00019" summary="每日算法2024年9月27日">
+      <option name="closed" value="true" />
+      <created>1727450706794</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1727450706794</updated>
+    </task>
+    <task id="LOCAL-00020" summary="每日算法2024年9月27日">
+      <option name="closed" value="true" />
+      <created>1727451716362</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1727451716362</updated>
+    </task>
+    <task id="LOCAL-00021" summary="每日算法2024年9月27日">
+      <option name="closed" value="true" />
+      <created>1727451772335</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1727451772335</updated>
+    </task>
+    <task id="LOCAL-00022" summary="每日算法2024年9月29日">
+      <option name="closed" value="true" />
+      <created>1727623710326</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1727623710326</updated>
+    </task>
+    <task id="LOCAL-00023" summary="每日算法2024年10月9日">
+      <option name="closed" value="true" />
+      <created>1728825111863</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1728825111863</updated>
+    </task>
+    <task id="LOCAL-00024" summary="每日算法2024年10月11日">
+      <option name="closed" value="true" />
+      <created>1728825121271</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1728825121271</updated>
+    </task>
+    <task id="LOCAL-00025" summary="每日算法2024年10月11日">
+      <option name="closed" value="true" />
+      <created>1728994434430</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1728994434430</updated>
+    </task>
+    <task id="LOCAL-00026" summary="每日算法2024年11月1日">
+      <option name="closed" value="true" />
+      <created>1730469980467</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1730469980467</updated>
+    </task>
+    <task id="LOCAL-00027" summary="每日算法2024年11月2日">
+      <option name="closed" value="true" />
+      <created>1730559664272</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1730559664272</updated>
+    </task>
+    <task id="LOCAL-00028" summary="「新增」每日算法2024年11月3日-》452. 用最少数量的箭引爆气球">
+      <option name="closed" value="true" />
+      <created>1730647072925</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1730647072925</updated>
+    </task>
+    <task id="LOCAL-00029" summary="「新增」每日算法2024年11月3日-》435. 无重叠区间">
+      <option name="closed" value="true" />
+      <created>1730647085404</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1730647085404</updated>
+    </task>
+    <task id="LOCAL-00030" summary="「修改」变量重命名">
+      <option name="closed" value="true" />
+      <created>1730647124037</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1730647124037</updated>
+    </task>
+    <task id="LOCAL-00031" summary="「新增」每日算法2024/11/04 -&gt; 56. 合并区间">
+      <option name="closed" value="true" />
+      <created>1730735143669</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1730735143669</updated>
+    </task>
+    <task id="LOCAL-00032" summary="「新增」每日算法2024/11/04 -&gt; 763. 划分字母区间">
+      <option name="closed" value="true" />
+      <created>1730735154557</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1730735154557</updated>
+    </task>
+    <task id="LOCAL-00033" summary="「新增」每日算法2024/11/04 -&gt; 56. 合并区间">
+      <option name="closed" value="true" />
+      <created>1730891827424</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1730891827424</updated>
+    </task>
+    <task id="LOCAL-00034" summary="「新增」每日算法2024/11/04 -&gt; 56. 合并区间">
+      <option name="closed" value="true" />
+      <created>1730891993700</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1730891993700</updated>
+    </task>
+    <task id="LOCAL-00035" summary="「新增」每日算法2024/11/06 -&gt; 738. 单调递增的数字">
+      <option name="closed" value="true" />
+      <created>1730903689111</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1730903689111</updated>
+    </task>
+    <task id="LOCAL-00036" summary="「新增」每日算法2024/11/06 -&gt; 738. 单调递增的数字">
+      <option name="closed" value="true" />
+      <created>1730985269645</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1730985269645</updated>
+    </task>
+    <task id="LOCAL-00037" summary="「新增」每日算法2024/11/07 -&gt; 968. 监控二叉树">
+      <option name="closed" value="true" />
+      <created>1730992535242</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1730992535242</updated>
+    </task>
+    <task id="LOCAL-00038" summary="「新增」每日算法2024/11/08 -&gt; 509. 斐波那契数">
+      <option name="closed" value="true" />
+      <created>1731162065220</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1731162065220</updated>
+    </task>
+    <task id="LOCAL-00039" summary="「新增」每日算法2024/11/09 -&gt; 70. 爬楼梯">
+      <option name="closed" value="true" />
+      <created>1731162075467</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1731162075467</updated>
+    </task>
+    <task id="LOCAL-00040" summary="「新增」每日算法2024/11/09 -&gt; 746. 使用最小花费爬楼梯">
+      <option name="closed" value="true" />
+      <created>1731162083545</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1731162083545</updated>
+    </task>
+    <task id="LOCAL-00041" summary="「新增」每日算法2024/11/10 -&gt; 62. 不同路径">
+      <option name="closed" value="true" />
+      <created>1731241826285</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1731241826285</updated>
+    </task>
+    <task id="LOCAL-00042" summary="「新增」每日算法2024/11/11 -&gt; 63. 不同路径 II">
+      <option name="closed" value="true" />
+      <created>1731340819542</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1731340819542</updated>
+    </task>
+    <task id="LOCAL-00043" summary="「修改」343. 整数拆分">
+      <option name="closed" value="true" />
+      <created>1731512560402</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1731512560402</updated>
+    </task>
+    <task id="LOCAL-00044" summary="「修改」62. 不同路径">
+      <option name="closed" value="true" />
+      <created>1731512577717</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1731512577717</updated>
+    </task>
+    <task id="LOCAL-00045" summary="「新增」96. 不同的二叉搜索树">
+      <option name="closed" value="true" />
+      <created>1731512592129</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1731512592129</updated>
+    </task>
+    <task id="LOCAL-00046" summary="「修改」746. 使用最小花费爬楼梯">
+      <option name="closed" value="true" />
+      <created>1731512636870</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1731512636870</updated>
+    </task>
+    <task id="LOCAL-00047" summary="「修改」62. 不同路径">
+      <option name="closed" value="true" />
+      <created>1731593670772</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1731593670772</updated>
+    </task>
+    <task id="LOCAL-00048" summary="「修改」96. 不同的二叉搜索树">
+      <option name="closed" value="true" />
+      <created>1731593679556</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1731593679556</updated>
+    </task>
+    <task id="LOCAL-00049" summary="「新增」每日算法2024/11/14 -&gt; 0-1背包问题">
+      <option name="closed" value="true" />
+      <created>1731593710506</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1731593710506</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="每日算法2024年9月3日" />
-    <MESSAGE value="每日算法2024年9月4日" />
-    <MESSAGE value="每日算法2024年9月5日" />
-    <MESSAGE value="每日算法2024年9月7日" />
-    <MESSAGE value="每日算法2024年9月9日" />
-    <MESSAGE value="每日算法2024年9月11日" />
-    <MESSAGE value="每日算法2024年9月13日" />
-    <option name="LAST_COMMIT_MESSAGE" value="每日算法2024年9月13日" />
+    <MESSAGE value="每日算法2024年9月27日" />
+    <MESSAGE value="每日算法2024年9月29日" />
+    <MESSAGE value="每日算法2024年10月9日" />
+    <MESSAGE value="每日算法2024年10月11日" />
+    <MESSAGE value="每日算法2024年11月1日" />
+    <MESSAGE value="每日算法2024年11月2日" />
+    <MESSAGE value="「新增」每日算法2024年11月3日-》452. 用最少数量的箭引爆气球" />
+    <MESSAGE value="「新增」每日算法2024年11月3日-》435. 无重叠区间" />
+    <MESSAGE value="「修改」变量重命名" />
+    <MESSAGE value="「新增」每日算法2024/11/04 -&gt; 763. 划分字母区间" />
+    <MESSAGE value="「新增」每日算法2024/11/04 -&gt; 56. 合并区间" />
+    <MESSAGE value="「新增」每日算法2024/11/06 -&gt; 738. 单调递增的数字" />
+    <MESSAGE value="「新增」每日算法2024/11/07 -&gt; 968. 监控二叉树" />
+    <MESSAGE value="「新增」每日算法2024/11/08 -&gt; 509. 斐波那契数" />
+    <MESSAGE value="「新增」每日算法2024/11/09 -&gt; 70. 爬楼梯" />
+    <MESSAGE value="「新增」每日算法2024/11/09 -&gt; 746. 使用最小花费爬楼梯" />
+    <MESSAGE value="「新增」每日算法2024/11/10 -&gt; 62. 不同路径" />
+    <MESSAGE value="「新增」每日算法2024/11/11 -&gt; 63. 不同路径 II" />
+    <MESSAGE value="「修改」70. 爬楼梯" />
+    <MESSAGE value="「修改」343. 整数拆分" />
+    <MESSAGE value="「新增」96. 不同的二叉搜索树" />
+    <MESSAGE value="「修改」746. 使用最小花费爬楼梯" />
+    <MESSAGE value="「修改」62. 不同路径" />
+    <MESSAGE value="「修改」96. 不同的二叉搜索树" />
+    <MESSAGE value="「新增」每日算法2024/11/14 -&gt; 0-1背包问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="「新增」每日算法2024/11/14 -&gt; 0-1背包问题" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
