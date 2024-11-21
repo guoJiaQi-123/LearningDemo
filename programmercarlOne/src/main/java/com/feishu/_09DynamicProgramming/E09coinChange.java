@@ -1,13 +1,14 @@
-package com.dataStructure.algorithm.dynamicprogramming;
+package com.feishu._09DynamicProgramming;
 
 import java.util.Arrays;
+import java.util.stream.IntStream;
 
 /**
- * @author HX 2024/02/19
  * @version v1.0
- * @apiNote 322.零钱兑换问题 - 动态规划<p>凑成总金额的凑法中，需要硬币最少个数是几？</p>
+ * @author OldGj 2024/11/22
+ * @apiNote 322. 零钱兑换
  */
-public class ChangeMakingProblemLeetcode322 {
+public class E09coinChange {
 
 
     public static void main(String[] args) {
@@ -85,5 +86,15 @@ public class ChangeMakingProblemLeetcode322 {
             }
         }
         return dp[amount] <= amount ? dp[amount] : -1;
+    }
+
+    static void print(int[][] dp) {
+        System.out.println("-".repeat(18));
+        Object[] array = IntStream.range(0, dp[0].length + 1).boxed().toArray();
+        System.out.printf(("%2d ".repeat(dp[0].length)) + "%n", array);
+        for (int[] d : dp) {
+            array = Arrays.stream(d).boxed().toArray();
+            System.out.printf(("%2d ".repeat(d.length)) + "%n", array);
+        }
     }
 }

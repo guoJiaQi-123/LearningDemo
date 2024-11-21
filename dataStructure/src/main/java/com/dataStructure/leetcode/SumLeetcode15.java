@@ -24,15 +24,25 @@ public class SumLeetcode15 {
         return result;
     }
 
+    /**
+     *
+     * @param n 三数之和 n == 3  四数之和 n == 4
+     * @param i 左边界
+     * @param j 右边界
+     * @param nums 数组
+     * @param target 目标值
+     * @param stack 栈 回溯用
+     * @param result 结果集合 -> 存放最后的结果
+     */
     public void dfs(int n, int i, int j, int[] nums, int target,
                     LinkedList<Integer> stack, List<List<Integer>> result) {
         if (n == 2) {
-            // 求解两数之和
+            // 如果n==2,走求解两数之和的逻辑
             towSum(nums, i, j, target, stack, result);
             return;
         }
         for (int k = i; k < j - (n - 2); k++) {
-            if (k > i && nums[k] == nums[k - 1]) {
+            if (k > i && nums[k] == nums[k - 1]) { // 去重
                 continue;
             }
             int num = nums[k];
