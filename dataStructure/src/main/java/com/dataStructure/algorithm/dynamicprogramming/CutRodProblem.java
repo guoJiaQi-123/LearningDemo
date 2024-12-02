@@ -11,10 +11,10 @@ import java.util.stream.IntStream;
  */
 public class CutRodProblem {
     /*
-               1  2  3  4
-               1  5  8  9
+           钢条长度    1  2  3  4
+           钢条价值    1  5  8  9
 
-           0   1   2   3   4
+           0   1   2   3   4       钢条总长度 = 背包总容量
        1       1   11  111 1111
                (1) (2) (3) (4)
        2           11  111 1111
@@ -34,7 +34,7 @@ public class CutRodProblem {
                (1) (5) (8) (10)
     */
     public static void main(String[] args) {
-        System.out.println(cut(new int[]{0, 1, 5, 8, 9}, 4));
+        System.out.println(cut2(new int[]{0, 1, 5, 8, 9}, 4));
     }
 
     /**
@@ -45,9 +45,10 @@ public class CutRodProblem {
      */
     private static int cut2(int[] values, int n) {
         int[][] dp = new int[values.length][n + 1];
-        for (int i = 1; i < values.length; i++) {
-            for (int j = 1; j < n + 1; j++) {
+        for (int i = 1; i < values.length; i++) { // 循环物品重量-> 钢管价值
+            for (int j = 1; j < n + 1; j++) { // 循环背包容量 -> 钢管长度
                 if (j >= i) { // 放得下
+                    // dp[i][j]=max(dp[i-1][j],当前物品价值+dp[i][j-物品重量])
                     dp[i][j] = Integer.max(dp[i - 1][j], values[i] + dp[i][j - i]);
                 } else { // 放不下
                     dp[i][j] = dp[i - 1][j];
