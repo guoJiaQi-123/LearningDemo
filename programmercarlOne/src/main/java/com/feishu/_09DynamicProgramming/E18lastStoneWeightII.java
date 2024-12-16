@@ -21,7 +21,7 @@ public class E18lastStoneWeightII {
      */
     public int lastStoneWeightII(int[] stones) {
         int sum = Arrays.stream(stones).sum();
-        int half = sum >>> 1;
+        int half = sum /2;
         int[][] dp = new int[stones.length][half + 1];
         // 初始化
         for (int j = 0; j < half + 1; j++) {
