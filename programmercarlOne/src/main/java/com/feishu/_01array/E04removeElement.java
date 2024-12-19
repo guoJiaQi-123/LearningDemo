@@ -12,15 +12,15 @@ public class E04removeElement {
                  慢指针负责将快指针找到的符合条件的元素构建为一个新数组
      */
     public int removeElement(int[] nums, int val) {
-        int slowIndex = 0; // 慢指针，负责构建新数组
+        int s = 0; // 慢指针，负责构建新数组
         // 快指针，负责查找新数组中的元素
-        for (int fastIndex = 0; fastIndex < nums.length; fastIndex++) {
-            if (nums[fastIndex] != val) { // 如果快指针找到符合条件的元素
-                nums[slowIndex] = nums[fastIndex]; // 赋值给慢指针指向的位置
-                slowIndex++; // 移动慢指针
+        for (int f = 0; f < nums.length; f++) {
+            if (nums[f] != val) { // 如果快指针找到符合条件的元素
+                nums[s] = nums[f]; // 赋值给慢指针指向的位置
+                s++; // 移动慢指针
             }
         }
-        return slowIndex;
+        return s;
     }
 
     /*
