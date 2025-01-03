@@ -1,5 +1,6 @@
 package com.feishu._09DynamicProgramming;
 
+import java.io.Serializable;
 import java.util.Arrays;
 
 /**
@@ -7,17 +8,17 @@ import java.util.Arrays;
  * @author OldGj 2025/1/2
  * @apiNote 279. 完全平方数
  */
-public class E22numSquares {
+public class E22numSquares implements Serializable, Cloneable {
 
     /*
-            [0, 1, 2147483647, 2147483647, 2147483647, 2147483647]
-            [0, 1, 2, 2147483647, 2147483647, 2147483647]
-            [0, 1, 2, 3, 2147483647, 2147483647]
-            [0, 1, 2, 3, 4, 2147483647]
-            [0, 1, 2, 3, 4, 5]
-            [0, 1, 2, 3, 1, 5]
-            [0, 1, 2, 3, 1, 2]
-     */
+                [0, 1, 2147483647, 2147483647, 2147483647, 2147483647]
+                [0, 1, 2, 2147483647, 2147483647, 2147483647]
+                [0, 1, 2, 3, 2147483647, 2147483647]
+                [0, 1, 2, 3, 4, 2147483647]
+                [0, 1, 2, 3, 4, 5]
+                [0, 1, 2, 3, 1, 5]
+                [0, 1, 2, 3, 1, 2]
+         */
     // 版本一，先遍历物品, 再遍历背包
     public int numSquares(int n) {
         int max = Integer.MAX_VALUE;
