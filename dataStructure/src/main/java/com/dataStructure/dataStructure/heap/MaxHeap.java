@@ -28,7 +28,7 @@ public class MaxHeap {
      * 返回堆顶元素
      */
     public Integer peek() {
-        if(isEmpty()){
+        if (isEmpty()) {
             return null;
         }
         return array[0];
@@ -38,14 +38,14 @@ public class MaxHeap {
      * 删除堆顶元素
      */
     public Integer poll() {
-        if(isEmpty()){
+        if (isEmpty()) {
             return null;
         }
         /*
-                   1.先记录当前堆顶元素，方便返回结果值
-                   2.将堆顶元素与堆中最后一个元素交换
-                   3.删除最后一个元素
-                   4.将推顶元素进行下潜down操作
+           1.先记录当前堆顶元素，方便返回结果值
+           2.将堆顶元素与堆中最后一个元素交换
+           3.删除最后一个元素
+           4.将推顶元素进行下潜down操作
          */
         int top = array[0];
         swap(0, size - 1);
@@ -58,7 +58,7 @@ public class MaxHeap {
      * 删除指定索引位置的元素
      */
     public Integer poll(int index) {
-        if(isEmpty()){
+        if (isEmpty()) {
             return null;
         }
         int deleted = array[index];
@@ -72,7 +72,7 @@ public class MaxHeap {
      * 替换堆顶元素
      */
     public boolean replace(int replaced) {
-        if(isEmpty()){
+        if (isEmpty()) {
             return false;
         }
         array[0] = replaced;
@@ -84,17 +84,30 @@ public class MaxHeap {
      * 向推中添加元素
      */
     public boolean offer(int offered) {
-        if(isFull()){
+        if (isFull()) {
             return false;
         }
         /*
-                   1.判断推是否已满
-                   2.调用上浮up方法，将待添加元素加入到堆中合适位置
-                   3.堆元素个数size ＋ 1
+           1.判断推是否已满
+           2.调用上浮up方法，将待添加元素加入到堆中合适位置
+           3.堆元素个数size ＋ 1
          */
         up(offered, size);
         size++;
         return true;
+    }
+
+    /**
+     * 建推
+     */
+    public void heapify() {
+        /*
+            1.找到完全二叉树的最后一个非叶子节点     公式： size / 2 - 1
+            2.从后向前，依次对每个非叶子节点调用下潜down方法
+         */
+        for (int i = (size >> 1) - 1; i >= 0; i--) {
+            down(i);
+        }
     }
 
     /**
@@ -104,12 +117,12 @@ public class MaxHeap {
      */
     private void up(int offered, int index) {
         /*
-                   1.记录孩子的索引位置
-                   2.通过孩子的索引找到父亲的索引位置     公式： parent = (child - 1) / 2;
-                   3.比较添加元素与其父亲节点元素的值
-                   4.如果添加元素大于父亲节点元素的值，将父亲节点元素的值下移，如果不大于，则直接在孩子索引位置插入元素
-                   5.将孩子索引指向其父亲索引
-                   6.循环操作 2,3,4,5 直到孩子索引为推顶索引0，或者添加元素不大于父亲节点元素的值
+           1.记录孩子的索引位置
+           2.通过孩子的索引找到父亲的索引位置     公式： parent = (child - 1) / 2;
+           3.比较添加元素与其父亲节点元素的值
+           4.如果添加元素大于父亲节点元素的值，将父亲节点元素的值下移，如果不大于，则直接在孩子索引位置插入元素
+           5.将孩子索引指向其父亲索引
+           6.循环操作 2,3,4,5 直到孩子索引为推顶索引0，或者添加元素不大于父亲节点元素的值
          */
         int child = index;
         while (child > 0) {
@@ -125,28 +138,15 @@ public class MaxHeap {
     }
 
     /**
-     * 建推
-     */
-    public void heapify() {
-        /*
-                1.找到完全二叉树的最后一个非叶子节点     公式： size / 2 - 1
-                2.从后向前，依次对每个飞非叶子节点调用下潜down方法
-         */
-        for (int i = (size >> 1) - 1; i >= 0; i--) {
-            down(i);
-        }
-    }
-
-    /**
      * 下潜
      */
     private void down(int parent) {
         /*
-               1.找到当前节点的左孩子节点和右孩子节点
-               2.将当前节点的值和左孩子，右孩子的值进行比较
-               3.定义一个变量max，用于存放当前节点与其左右孩子中最大的值的下标
-               4.默认最大值先为当前节点，如果左孩子的值大于当前节点，更新max指针为左孩子下标，右孩子类似
-               5.如果max指针不等于当前节点的下标（左右孩子中有大于当前节点的值），交换当前节点与max下标对应节点的值，递归调用下潜down方法，将原节点继续下潜
+           1.找到当前节点的左孩子节点和右孩子节点
+           2.将当前节点的值和左孩子，右孩子的值进行比较
+           3.定义一个变量max，用于存放当前节点与其左右孩子中最大的值的下标
+           4.默认最大值先为当前节点，如果左孩子的值大于当前节点，更新max指针为左孩子下标，右孩子类似
+           5.如果max指针不等于当前节点的下标（左右孩子中有大于当前节点的值），交换当前节点与max下标对应节点的值，递归调用下潜down方法，将原节点继续下潜
          */
         int left = parent * 2 + 1;
         int right = left + 1;
@@ -161,7 +161,6 @@ public class MaxHeap {
             swap(max, parent);
             down(max);
         }
-
     }
 
     /**
